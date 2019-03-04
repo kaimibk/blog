@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Curriculum Vitae
+mathjax: true
 permalink: /CV/
 ---
 
