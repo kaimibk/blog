@@ -27,7 +27,7 @@ avatar: https://avatars1.githubusercontent.com/u/20824806?s=400&u=035cd7c1d604d1
 # Build settings
 markdown: kramdown
 mathjax: true
-theme: minima
+theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
 
