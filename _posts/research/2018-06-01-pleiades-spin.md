@@ -14,4 +14,8 @@ Here we employ a potentially more rigorous statistical framework for analyzing t
 
 **Mentor:** Dr. Kento Masuda
 
+**Honors & Award(s):**
+
+- Princeton National Astronomy Consortium (NAC) Research Intern
+
 **Project Github:** [https://github.com/kaimibk/NAC](https://github.com/kaimibk/NAC)
