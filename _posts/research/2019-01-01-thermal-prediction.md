@@ -12,4 +12,8 @@ Deep learning has had significant recent success, and is outperforming other sta
 
 **Mentor:** Dr. Susanne Still
 
+**Award(s):**
+
+- Undergraduate Research Opportunities Program Grant
+
 **Project Github:** [https://github.com/kaimibk/Thermal_Prediction](https://github.com/kaimibk/Thermal_Prediction)
