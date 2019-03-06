@@ -11,7 +11,7 @@ Binary stars, under certain conditions, can form symbiotic binary star systemsâ€
 
 **Mentor:** Dr. Geoffrey Mathews
 
-**Award(s):**
+**Honors & Award(s):**
 
 - NASA Hawaii Space Grant Consortium Fellowship
 - Undergraduate Research Opportunities Program Grant
