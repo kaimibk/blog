@@ -7,7 +7,7 @@ permalink: /CV/
 
 ### Education
 
-| B.S. Astrophysics   | University of Hawaii, at Manoa | Spring 2019 |
+| B.S. Astrophysics   | University of Hawaiʻi, at Mānoa | Spring 2019 |
 | High School Diploma | Kamahemeha Schools Kapālama    | Spring 2015 |
 
 #### Honors & Awards
