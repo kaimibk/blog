@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notes on Bayesian Interpolation"
-categories: update
+categories: notes
 date:   2019-03-11 12:00:00 -1000
 ---
 
@@ -22,7 +22,7 @@ ___
 
 We can write Bayes rule for each of the two levels of inference discussed previously.
 
-### First Level: Model Fitting
+**First Level: Model Fitting**
 
 If we assume one of the models, $$H_i$$ is true, we infere the model parameters, $$\mathbf{w}$$, given the data, $$D$$. Bayes rule is then,
 
@@ -34,4 +34,10 @@ $$\mathbf{A} = -\nabla\nabla \log P(\mathbf{w}|D,H_i)$$
 
 and Taylor-expanding the $$\log$$ posterior with $$\Delta\mathbf{w}=\mathbf{w}-\mathbf{w}_{MP}$$,
 
-$$\begin{equation}P(\mathbf{w} \middle D,H_i) \simeq P(\mathbf{w}_{MP} \middle D, H_i)\exp (-\frac{1}{2}\Delta \mathbf{w}^T \mathbf{A} \Delta \mathbf{w})\end{equation}$$
+\[
+P(\mathbf{w} \middle D,H_i) \simeq P(\mathbf{w}_{MP} \middle D, H_i)\exp \left(-\frac{1}{2}\Delta \mathbf{w}^T \mathbf{A} \Delta \mathbf{w}\right)\end{equation}
+\]
+
+From this, we can see that the posterior can be locally approximated as a Gaussian with covariance matrix, $$\mathbf{A}^{-1}$$.
+
+**Second Level: Model Comparison**
