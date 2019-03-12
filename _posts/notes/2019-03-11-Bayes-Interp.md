@@ -56,3 +56,17 @@ $$P(D \mid H_i) = \int P(D \mid \mathbf{w}, H_i)P(\mathbf{w} \mid H_i)d\mathbf{w
 Generally, the posterior will display a strong peak at the most probable parameter $$\mathbf{w}_{MP}$$. Then the evidence can be approximated by the height of the peak of the integrand $$P(D \mid \mathbf{w}, H_i)P(\mathbf{w} \mid H_i)$$ times its width, $$\Delta \mathbf{w}$$:
 
 $$\begin{align} P(D \mid H_i) &\simeq P(D \mid \mathbf{w}_{MP}, H_i)P(\mathbf{w}_{MP} \mid H_i) \Delta\mathbf{w} \\ \text{Evidence} &\simeq \text{ (Best fit likelihood) } \text{ (Occam factor) } \end{align}$$
+
+The evidence term is found by multiplying the likelihood by the Occam factor. This is a term with magnitude less than one that penalizes $$H_i$$ for having the parameter $$\mathbf{w}$$.
+
+### Interpretation of the Occam Factor
+
+The posterior uncertainty in $$\mathbf{w}$$ is $$\Delta \mathbf{w}$$. If we adopt an uninformative prior for $$P(\mathbf{w} \mid H_i)$$ on the interval $$\Delta^0\mathbf{w}$$---which represents the range of possible parameters before the data arrives. Thus,
+
+$$P(\mathbf{w}_{MP} \mid H_i) = \frac{1}{\Delta^0 \mathbf{w}}$$
+
+$$\Rightarrow \text{ Occam Factor } = \frac{\Delta\mathbf{w}}{\Delta^0\mathbf{w}}$$
+
+That is to say, it is the ratio of the posterior accessible volume of $$H_i$$'s parameter space to the prior accessible volume. It can also be thought of as the factor by which $$H_i$$'s parameter space collapses when the data arrives. Additionally, the $$\log$$ of the Occam factor can be interpreted as the amount of information we gain about the model $$H$$ when the data arrives.
+
+In summary, a complex model which is highly parameterized will be penalized with a larger Occam factor than a simpler one. The model which achieves the greatest evidence is determined by a trade-off between minimizing this natural complexity measure and minimizing the data misfit.
