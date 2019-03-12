@@ -26,7 +26,7 @@ We can write Bayes rule for each of the two levels of inference discussed previo
 
 If we assume one of the models, $$H_i$$ is true, we infere the model parameters, $$\mathbf{w}$$, given the data, $$D$$. Bayes rule is then,
 
-$$\begin{equation} P(\vec{w} | D, H_i)= \frac{P(D|\mathbf{w},H_i) P(\mathbf{w}|H_i)}{P(D|H_i)}\end{equation}$$
+$$\begin{equation} P(\mathbf{w} \middle D, H_i)= \frac{P(D \middle \mathbf{w},H_i) P(\mathbf{w} \middle H_i)}{P(D|H_i)}\end{equation}$$
 
 Often, the evidence for $$H_i$$ (denominator) is ignored because it is irrelevant to the first level of inference. Finding the maximum of the posterior is generally computed using gradient methods to find the most probable parameters, $$\mathbf{w}_{MP}$$. Error bars on these best fit parameters are obtained from the curvature of the posterior. If we define the Hessian,
 
@@ -34,4 +34,4 @@ $$\mathbf{A} = -\nabla\nabla \log P(\mathbf{w}|D,H_i)$$
 
 and Taylor-expanding the $$\log$$ posterior with $$\Delta\mathbf{w}=\mathbf{w}-\mathbf{w}_{MP}$$,
 
-$$\begin{equation}P(\mathbf{w}|D,H_i) \simeq P(\mathbf{w}_{MP}|D, H_i)\exp (-\frac{1}{2}\Delta \mathbf{w}^T \mathbf{A} \Delta \mathbf{w})\end{equation}$$
+$$\begin{equation}P(\mathbf{w} \middle D,H_i) \simeq P(\mathbf{w}_{MP} \middle D, H_i)\exp (-\frac{1}{2}\Delta \mathbf{w}^T \mathbf{A} \Delta \mathbf{w})\end{equation}$$
