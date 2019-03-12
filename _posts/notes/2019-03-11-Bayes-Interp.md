@@ -48,9 +48,3 @@ The data dependent term, $$P(D \middle H_i)$$, is the evidence for $$H_i$$, whic
 Classical Bayesian analysis deals with assigning the "right" priors for the problem. However, we can try many different priors and compare these alternative hypotheses by evaluating the evidence. Even if we try one hypothesis, and obtain an inaccurate prediction, we have still learned something. "A failure of Bayesian prediction is an opportunity to learn, and we are able to come back to the same data set with new hypotheses using new priors for example."
 
 ### Evaluating the Evidence
-
-The evidence,
-
-$$P(D \middle H_i) = \int P(D \middle \mathbf{w}, H_i)P(\mathbf{w} \middle H_i)d\mathbf{w}$$
-
-Generally, the posterior will display a strong peak at the most probable parameter $$\mathbf{w}_{MP}$$. Then the evidence can be approximated by the height of the peak of the integrand $$P(D \middle \mathbf{w}, H_i)P(\mathbf{w} \middle H_i)$$ times its width, $$\Delta \mathbf{w}$$:
