@@ -54,5 +54,3 @@ The evidence,
 $$P(D \middle H_i) = \int P(D \middle \mathbf{w}, H_i)P(\mathbf{w} \middle H_i)d\mathbf{w}$$
 
 Generally, the posterior will display a strong peak at the most probable parameter $$\mathbf{w}_{MP}$$. Then the evidence can be approximated by the height of the peak of the integrand $$P(D \middle \mathbf{w}, H_i)P(\mathbf{w} \middle H_i)$$ times its width, $$\Delta \mathbf{w}$$:
-
-$$\begin{align} P(D \middle H_i) &\simeq P(D \middle \mathbf{w}_{MP}, H_i)P(\mathbf{w}_{MP} \middle H_i) \Delta\mathbf{w} \\ \text{Evidence} &\simeq \text{ (Best fit likelihood) } \text{ (Occam factor) } \end{align}$$
