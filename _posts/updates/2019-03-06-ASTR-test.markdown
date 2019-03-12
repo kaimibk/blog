@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Test math"
-date:   2019-03-05 14:30:05 -1000
-categories: jekyll update
----
-
-$$\Omega = -\frac{GM^2}{R}$$
