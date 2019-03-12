@@ -70,3 +70,19 @@ $$\Rightarrow \text{ Occam Factor } = \frac{\Delta\mathbf{w}}{\Delta^0\mathbf{w}
 That is to say, it is the ratio of the posterior accessible volume of $$H_i$$'s parameter space to the prior accessible volume. It can also be thought of as the factor by which $$H_i$$'s parameter space collapses when the data arrives. Additionally, the $$\log$$ of the Occam factor can be interpreted as the amount of information we gain about the model $$H$$ when the data arrives.
 
 In summary, a complex model which is highly parameterized will be penalized with a larger Occam factor than a simpler one. The model which achieves the greatest evidence is determined by a trade-off between minimizing this natural complexity measure and minimizing the data misfit.
+
+**Comments:**
+- To evaluate the Occam factor all we need is the Hessian $$\mathbf{A}$$. That is to say, Bayesian model comparison by evaluating the evidence is no more demanding than finding the optimal parameters and their associated errors.
+- The log evidence, $$\log_2 P(D \mid H_i)$$, is the number of bits in the ideal shortest message that encodes the data, $$D$$ using the model $$H_i$$.
+
+## The Noisy Interpolation Problem
+
+Assume the data set to be interpolated is a set of pairs $$D={x_m, t_m}$$, where $$n\in{1...N}$$. To define an interpolation model, a set of fixed basis function $$A={\phi_h(x)}$$ is defined, and the interpolated function is assumed to have the form:
+
+$$y(x) = \sum_{h=1}^{k} w_h\phi_h(x)$$
+
+The data is modelled as deviating from this mapping under some additive noise process, $$t_m = y(x_m)+\nu_m$$. If $$\nu$$ is modelled as zero-mean gaussian with standard deviation $$\sigma_\nu$$, the likeihood is then,
+
+$$P(D \mid \mathbf{w},\beta, A) = \frac{\exp(-\beta E_D(D \mid \mathbf{w}, A))}{Z_D(\beta)}$$
+
+where $$\beta = 1/\sigma_\nu^2$$, $$E_D = \sum_m (y(x_m)-t_m)^2$$, and $$Z_D = (2\pi/\beta)^{N/2}$$. Finding the maximum likelihood parameters $$\mathbf{w}_{ML}$$ is an 'ill-posed' problem. The parameter $$\mathbf{w}$$ that minimizes $$E_D$$ is underdetermined or depends on the sensitively on the details of the noise in the data&mdash;the interpolant in those cases oscillates widely and starts to fit the noise.
