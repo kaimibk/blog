@@ -5,13 +5,13 @@ categories: update
 date:   2019-03-11 12:00:00 -1000
 ---
 
-Random notes on the paper, [_Bayesian Interpolation_](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9072) by David J.C. MacKay.
+Random notes on the paper, _ [Bayesian Interpolation](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9072) _ by David J.C. MacKay.
 
 ## Introduction
 
 There are two levels of inference in data modelling:
 
-**First level:** We assume one of the models created is true, and is to be fit to the data. Fitting this model typically involves inferring some set of optimal parameters &mdash;and their associated errors&mdash;given the data.
+**First level:** We assume one of the models created is true, and is to be fit to the data. Fitting this model typically involves inferring some set of optimal parameters&mdash;and their associated errors&mdash;given the data.
 
 **Second level:** We compare available models and assign a ranking to the alternatives.
 
@@ -77,12 +77,26 @@ In summary, a complex model which is highly parameterized will be penalized with
 
 ## The Noisy Interpolation Problem
 
-Assume the data set to be interpolated is a set of pairs $$D={x_m, t_m}$$, where $$n\in{1...N}$$. To define an interpolation model, a set of fixed basis function $$A={\phi_h(x)}$$ is defined, and the interpolated function is assumed to have the form:
+Assume the data set to be interpolated is a set of pairs $$D=\{x_m, t_m\}$$, where $$n\in\{1...N\}$$. To define an interpolation model, a set of fixed basis function $$A=\{\phi_h(x)\}$$ is defined, and the interpolated function is assumed to have the form:
 
 $$y(x) = \sum_{h=1}^{k} w_h\phi_h(x)$$
 
-The data is modelled as deviating from this mapping under some additive noise process, $$t_m = y(x_m)+\nu_m$$. If $$\nu$$ is modelled as zero-mean gaussian with standard deviation $$\sigma_\nu$$, the likeihood is then,
+The data is modeled as deviating from this mapping under some additive noise process, $$t_m = y(x_m)+\nu_m$$. If $$\nu$$ is modeled as zero-mean gaussian with standard deviation $$\sigma_\nu$$, the likeihood is then,
 
 $$P(D \mid \mathbf{w},\beta, A) = \frac{\exp(-\beta E_D(D \mid \mathbf{w}, A))}{Z_D(\beta)}$$
 
 where $$\beta = 1/\sigma_\nu^2$$, $$E_D = \sum_m (y(x_m)-t_m)^2$$, and $$Z_D = (2\pi/\beta)^{N/2}$$. Finding the maximum likelihood parameters $$\mathbf{w}_{ML}$$ is an 'ill-posed' problem. The parameter $$\mathbf{w}$$ that minimizes $$E_D$$ is underdetermined or depends on the sensitively on the details of the noise in the data&mdash;the interpolant in those cases oscillates widely and starts to fit the noise.
+
+To conduct this interpolation, we define a prior $$R$$ to represent the smoothness we expect $$y(x)$$ to have. Thus, the prior is of the form,
+
+$$P(y \mid R, \alpha) = \frac{\exp(-\alpha E_y(y \mid R))}{Z_y(\alpha)}$$
+
+where $$E_y$$ might be for example, the regularizer for cubic spline interpolation, $$E_y = \int y''(x)^2 dx$$. The parameter $$\alpha$$ is a measure of how smooth $$f(x)$$ is expected to be. This prior can also be rewritten as a prior on the parameters,
+
+$$P(\mathbf{w} \mid A, R, \alpha) = \frac{-\alpha E_W(\mathbf{w} | A, R)}{Z_W(\alpha)}$$
+
+where $$Z_W = \int \mathbf{w}\exp{-\alpha E_W}d^k\mathbf{w}$$ and $$E_W$$ is referred to as the regularizing function. The model now consists of:
+- $$A$$:choice of basis functions
+- $$\beta$$: noise model paramete
+- $$R$$: prior (regularizer)
+- $$\alpha$$: regularizing constant
