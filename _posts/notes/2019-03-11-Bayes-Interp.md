@@ -34,9 +34,7 @@ $$\mathbf{A} = -\nabla\nabla \log P(\mathbf{w}|D,H_i)$$
 
 and Taylor-expanding the $$\log$$ posterior with $$\Delta\mathbf{w}=\mathbf{w}-\mathbf{w}_{MP}$$,
 
-\\(
-P(\mathbf{w} \middle D,H_i) \simeq P(\mathbf{w}_{MP} \middle D, H_i)\exp \left(-\frac{1}{2}\Delta \mathbf{w}^T \mathbf{A} \Delta \mathbf{w}\right)\end{equation}
-\\)
+$$P(\mathbf{w} \middle D,H_i) \simeq P(\mathbf{w}_{MP} \middle D, H_i)\exp \left(-\frac{1}{2}\Delta \mathbf{w}^T \mathbf{A} \Delta \mathbf{w}\right)\end{equation}$$
 
 From this, we can see that the posterior can be locally approximated as a Gaussian with covariance matrix, $$\mathbf{A}^{-1}$$.
 
