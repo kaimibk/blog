@@ -1,0 +1,12 @@
+---
+layout: notes
+title: Notes
+permalink: /notes/
+---
+
+{% for post in site.posts %}
+  {%if post.categories contains "notes"%}
+    <button class="collapsible">{{ post.title }}</button>
+      <div class="collapse-content"><br>{{post.content}}</div>
+  {% endif %}
+{% endfor %}
