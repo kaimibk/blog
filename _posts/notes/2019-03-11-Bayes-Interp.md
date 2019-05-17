@@ -5,11 +5,11 @@ categories: update
 date:   2019-03-11 12:00:00 -1000
 ---
 
-Random notes on the paper, _ [Bayesian Interpolation](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9072) _ by David J.C. MacKay.
+Random notes on the paper, _[Bayesian Interpolation](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9072)_ by David J.C. MacKay.
 
 ## Introduction
 
-There are two levels of inference in data modelling:
+There are two levels of inference in data modeling:
 
 **First level:** We assume one of the models created is true, and is to be fit to the data. Fitting this model typically involves inferring some set of optimal parameters&mdash;and their associated errors&mdash;given the data.
 
@@ -44,9 +44,11 @@ $$P(H_i \mid D) \propto P(D \mid H_i)P(H_i)$$
 
 The data dependent term, $$P(D \mid H_i)$$, is the evidence for $$H_i$$, which appears in the normalization constant in the first level posterior. "Inference is open ended: we continually seek more probable models to account for the data we gather. New models are compared with previous models by evaluating the evidence for them."
 
+___
 ### A Modern Bayesian Approach to Priors
 Classical Bayesian analysis deals with assigning the "right" priors for the problem. However, we can try many different priors and compare these alternative hypotheses by evaluating the evidence. Even if we try one hypothesis, and obtain an inaccurate prediction, we have still learned something. "A failure of Bayesian prediction is an opportunity to learn, and we are able to come back to the same data set with new hypotheses using new priors for example."
 
+___
 ### Evaluating the Evidence
 
 The evidence,
@@ -59,6 +61,7 @@ $$\begin{align} P(D \mid H_i) &\simeq P(D \mid \mathbf{w}_{MP}, H_i)P(\mathbf{w}
 
 The evidence term is found by multiplying the likelihood by the Occam factor. This is a term with magnitude less than one that penalizes $$H_i$$ for having the parameter $$\mathbf{w}$$.
 
+___
 ### Interpretation of the Occam Factor
 
 The posterior uncertainty in $$\mathbf{w}$$ is $$\Delta \mathbf{w}$$. If we adopt an uninformative prior for $$P(\mathbf{w} \mid H_i)$$ on the interval $$\Delta^0\mathbf{w}$$---which represents the range of possible parameters before the data arrives. Thus,
@@ -75,6 +78,7 @@ In summary, a complex model which is highly parameterized will be penalized with
 - To evaluate the Occam factor all we need is the Hessian $$\mathbf{A}$$. That is to say, Bayesian model comparison by evaluating the evidence is no more demanding than finding the optimal parameters and their associated errors.
 - The log evidence, $$\log_2 P(D \mid H_i)$$, is the number of bits in the ideal shortest message that encodes the data, $$D$$ using the model $$H_i$$.
 
+___
 ## The Noisy Interpolation Problem
 
 Assume the data set to be interpolated is a set of pairs $$D=\{x_m, t_m\}$$, where $$n\in\{1...N\}$$. To define an interpolation model, a set of fixed basis function $$A=\{\phi_h(x)\}$$ is defined, and the interpolated function is assumed to have the form:
@@ -95,7 +99,7 @@ where $$E_y$$ might be for example, the regularizer for cubic spline interpolati
 
 $$P(\mathbf{w} \mid A, R, \alpha) = \frac{-\alpha E_W(\mathbf{w} | A, R)}{Z_W(\alpha)}$$
 
-where $$Z_W = \int \mathbf{w}\exp{-\alpha E_W}d^k\mathbf{w}$$ and $$E_W$$ is referred to as the regularizing function. The model now consists of:
+where $$Z_W = \int \exp{-\alpha E_W}d^k\mathbf{w}$$ and $$E_W$$ is referred to as the regularizing function. The model now consists of:
 - $$A$$:choice of basis functions
 - $$\beta$$: noise model paramete
 - $$R$$: prior (regularizer)
