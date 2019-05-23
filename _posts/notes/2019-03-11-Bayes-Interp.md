@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notes on Bayesian Interpolation"
-categories: update
+categories: notes
 date:   2019-03-11 12:00:00 -1000
 ---
 
