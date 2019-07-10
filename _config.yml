@@ -42,3 +42,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections_dir: books
+
+collections:
+  Bayesian_Analysis:
+    output: true
+  Deep_Learning_Specialization:
+    output: true

@@ -4,9 +4,29 @@ title: Notes
 permalink: /notes/
 ---
 
+{% comment %}
 {% for post in site.posts %}
   {%if post.categories contains "notes"%}
     <button class="collapsible">{{ post.title }}</button>
       <div class="collapse-content"><br>{{post.content}}</div>
   {% endif %}
+{% endfor %}
+{% endcomment %}
+
+{% for collection in site.books %}
+
+  {% assign name = collection.label %}
+
+  <section>
+    <h1>{{ name }}</h1>
+
+    {% for page in site.[name] %}
+    <article>
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.content | markdownify }}</p>
+    </article>
+    {% endfor %}
+
+  </section>
+
 {% endfor %}
