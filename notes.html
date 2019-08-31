@@ -1,32 +1,25 @@
 ---
-layout: notes
+layout: page
 title: Notes
 permalink: /notes/
 ---
-
-{% comment %}
-{% for post in site.posts %}
-  {%if post.categories contains "notes"%}
-    <button class="collapsible">{{ post.title }}</button>
-      <div class="collapse-content"><br>{{post.content}}</div>
-  {% endif %}
-{% endfor %}
-{% endcomment %}
 
 {% for collection in site.collections %}
 
   {% assign name = collection.label %}
 
-  <section>
-    <h1>{{ name }}</h1>
+  {% unless name == 'posts' %}
 
-    {% for page in site.[name] %}
-    <article>
-      <h2>{{ page.title }}</h2>
-      <p>{{ page.content | markdownify }}</p>
-    </article>
-    {% endfor %}
+  <button class="collapsible">{{ collection.title }}</button>
 
-  </section>
+      <div class="collapse-content">
+        <p>{{ collection.description | markdownify }}</p>
+        {% for page in site.[name] %}
+          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+      <br>
+      </div>
+
+  {% endunless %}
 
 {% endfor %}

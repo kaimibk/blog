@@ -17,7 +17,7 @@ title: Kaimi Kahihikolo
 email: kaimibk@hawaii.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Personal webpage for Kaimi Kahihikolo.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  kaimibk
@@ -46,5 +46,13 @@ plugins:
 collections:
   Bayesian_Analysis:
     output: true
-  Deep_Learning_Specialization:
+    title: Bayesian Analysis for the Logistical Sciences
+    description: Notes on the book, _[Bayesian Logical Data Analysis for the Physical Sciences](https://www.amazon.com/Bayesian-Logical-Analysis-Physical-Sciences/dp/0521150124/ref=sr_1_fkmrnull_3?crid=1B8EBBP98CCSR&keywords=bayesian+logical+data+analysis+for+the+physical+sciences&qid=1558065973&s=gateway&sprefix=Bayesian+logical%2Caps%2C222&sr=8-3-fkmrnull)_ by Phil Gregory. These notes are not meant to be complete, just key information and examples from the text.
+  Neural_Networks_and_Deep_Learning:
     output: true
+    title: Neural Networks and Deep Learning
+    description: Miscellaneous notes for the first course in the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng.
+  Misc:
+    output: true
+    title: Miscellaneous Notes
+    description: test description
