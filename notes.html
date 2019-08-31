@@ -8,14 +8,14 @@ permalink: /notes/
 
   {% assign name = collection.label %}
 
-  {% unless name == 'posts' %}
+  {% unless (name == 'posts') or (name == 'Outreach') %}
 
   <button class="collapsible">{{ collection.title }}</button>
 
       <div class="collapse-content">
         <p>{{ collection.description | markdownify }}</p>
         {% for page in site.[name] %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
         {% endfor %}
       <br>
       </div>

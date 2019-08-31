@@ -1,5 +1,18 @@
 ---
-layout : outreach
+layout : page
 title: Outreach
 permalink: /outreach/
 ---
+
+{% assign name = site.Outreach | sort:'date' | reverse %}
+
+{% for page in name %}
+
+    <div class='Outreach'>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ page.date | date: date_format }}</span>
+        <h3>{{ page. title }}</h3>
+        {{ page.content }}
+    </div>
+
+{% endfor %}
