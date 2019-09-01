@@ -52,11 +52,14 @@ collections:
   Neural_Networks_and_Deep_Learning:
     output: true
     title: Neural Networks and Deep Learning
-    description: Miscellaneous notes for the first course in the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng.
+    description: Notes from the first course in the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng.
   Misc:
     output: true
     title: Miscellaneous Notes
-    description: test description
+    description: Miscellaneous notes from research papers, interesting articles, etc.
   Outreach:
     output: false
     title: Outreach
+  Research:
+    output: false
+    title: Research

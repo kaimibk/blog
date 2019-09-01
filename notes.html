@@ -8,7 +8,7 @@ permalink: /notes/
 
   {% assign name = collection.label %}
 
-  {% unless (name == 'posts') or (name == 'Outreach') %}
+  {% unless (name == 'posts') or ((name == 'Outreach') or (name == 'Lessons') or (name == 'Research')) %}
 
   <button class="collapsible">{{ collection.title }}</button>
 

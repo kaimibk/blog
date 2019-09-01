@@ -4,9 +4,8 @@ title: Research
 permalink: /research/
 ---
 
-{% for post in site.posts %}
-  {%if post.categories contains "research"%}
-    <button class="collapsible">{{ post.title }}</button>
-      <div class="collapse-content"><br>{{post.content}}</div>
-  {% endif %}
+{% assign name = site.Research %}
+{% for post in name %}
+  <button class="collapsible">{{ post.title }}</button>
+    <div class="collapse-content"><br>{{post.content}}</div>
 {% endfor %}
