@@ -57,6 +57,10 @@ collections:
     output: true
     title: Miscellaneous Notes
     description: Miscellaneous notes from research papers, interesting articles, etc.
+  Intro_Data_Science:
+    output: true
+    title: Introduction to Data Science Tutorials and Notes
+    description: Miscellaneous tutorials and notes related to data science
   Outreach:
     output: false
     title: Outreach
