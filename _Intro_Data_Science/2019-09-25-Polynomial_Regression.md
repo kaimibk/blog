@@ -211,7 +211,7 @@ We could haphazardly approach this problem by trying minimize some in-sample err
 
 $$\text{MSE}\left(\hat{f}\right) = \sum_{i}^{N} \left(\hat{f}(X_i) - Y_i\right)^2$$
 
-To get a more indpeth understanding of optimization and the choice of cost functions, see my optimization notebook **INSERT LINK**.
+To get a more indepth understanding of optimization and the choice of cost functions, see my optimization notes, [HERE]({{ site.baseurl }}{% link _Intro_Data_Science/2018-08-19-Linear_Regression.md %}).
 
 However, there will be some major pitfalls if we follow this approach naively. Suppose we had two datapoints, we can fit that data with a line and achieve 100% accuracy. Similarly, if we have three data points, we can perfectly fit that with a quadratic. If we continue this process, we can quickly see&mdash;no matter the amount of observations&mdash;if we specify a $$N-1$$ degree polynomial it will express the data with near perfect accuracy. This is an example of overfitting over overparameterization. If you have a hard time visualizing this, take the time to draw some examples to convince yourself.
 
