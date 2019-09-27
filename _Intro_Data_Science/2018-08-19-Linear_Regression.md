@@ -407,14 +407,14 @@ In this form, the terms in the $$\chi^2$$ have a nice geometric interpretation: 
 If you solve for the optimum of the log-likelihood function (take the derivative with respect to $$\boldsymbol{\theta}$$ and set equal to 0), you find that:
 
 $$
-\bs{\theta}_{\rm best} = \left[{\bs{X}^{T}} \, \boldsymbol{\Sigma}^{-1} \, \boldsymbol{X}\right]^{-1} \, 
+\boldsymbol{\theta}_{\rm best} = \left[{\boldsymbol{X}^{T}} \, \boldsymbol{\Sigma}^{-1} \, \boldsymbol{X}\right]^{-1} \, 
     {\boldsymbol{X}}^{T} \, \boldsymbol{\Sigma}^{-1} \, \boldsymbol{y}
 $$
 
 Getting the best-fit parameters just requires a few simple linear algebra operations! As an added bonus, we also get the _uncertainties_ on the parameters. The $$2\times2$$ covariance matrix for the best-fit parameters is given by the matrix:
 
 $$
-C = \left[\{\bs{X}}^{T} \, \boldsymbol{\Sigma}^{-1} \, \boldsymbol{X}\right]^{-1}
+C = \left[{\boldsymbol{X}}^{T} \, \boldsymbol{\Sigma}^{-1} \, \boldsymbol{X}\right]^{-1}
 $$
 
 Instead of using an iterative optimizer like `scipy.optimize.minimize`, let's just write out the linear algebra explicitly and use `numpy.linalg` to solve this for us!
