@@ -35,7 +35,7 @@ STYLE_SHEET = "seaborn-notebook"
 ## The Fundamental Goal of Regression
 
 
-Suppose we are given a set of inputs $$X$$&mdash;indicated by the set "A" in the figure&mdash;and a set of inputs $$Y$$&mdash;indicated by the set "B" in the figure&mdash;. The goal of regression analysis to discover the "mapping," $$f$$, which relates the two sets.
+Suppose we are given a set of inputs $$X$$&mdash;indicated by the set "A" in the figure&mdash;and a set of inputs $$Y$$&mdash;indicated by the set "B" in the figure. The goal of regression analysis to discover the "mapping," $$f$$, which relates the two sets.
 
 ![alt text](https://provosta.files.wordpress.com/2013/03/bijection.png?w=600&h=322)
 
@@ -49,11 +49,11 @@ def f(x):
 
 ## Generating Some Artifical Data
 
-We assume that our data is generated from a polynomial, $$f(x)$$, of some unknown degree, from the model $$y(x)=f(X) + \epsilon$$ where $$\epsilon \sim N(0, \sigma^2)$$. That last piece of notation says that $$\epsilon$$ are samples obtained from a Normal distribution centered at 0 with a scale (variance) of $$\sigma^2$$ and is meant to reflect our state of confidence (or ignorance) about our data. By adding $$f(x)$$ and $\epsilon$ this corresponds to adding some artificial corruption to the data.
+We assume that our data is generated from a polynomial, $$f(x)$$, of some unknown degree, from the model $$y(x)=f(X) + \epsilon$$ where $$\epsilon \sim N(0, \sigma^2)$$. That last piece of notation says that $$\epsilon$$ are samples obtained from a Normal distribution centered at 0 with a scale (variance) of $$\sigma^2$$ and is meant to reflect our state of confidence (or ignorance) about our data. By adding $$f(x)$$ and $$\epsilon$$ this corresponds to adding some artificial corruption to the data.
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Normal_Distribution_PDF.svg/2880px-Normal_Distribution_PDF.svg.png)
 
-Here we will generate $$N=20$$ samples from the true model, where $$x \in X \sim U(0, 3)$$, that is to say $$X$$ is uniformaly distributed on the interval $$[0, 3]$$, and add noise with variance $$\sigma^2=0.05$$. And as we call tell from the figure above, a Normal distribution with that variance is rather peaky.
+Here we will generate $$N=20$$ samples from the true model, where $$x \in X \sim U(0, 3)$$, that is to say $$X$$ is uniformaly distributed on the interval $$[0, 3]$$, and add noise with variance $$\sigma^2=0.05$$. And as we can tell from the figure above, a Normal distribution with that variance is rather peaky.
 
 
 ```python
@@ -137,7 +137,7 @@ This may be look flipped in comparison to the matrix above, but the mechanics ar
 
 The `scikit-learn` library provides a great API for experimenting with a comprehensive list of statistical models. The general workflow is,
 1. Initialize some model, i.e; `LinearRegression`, `Ridge`, `SVR`.
-2. Train that model on some data, $X$, with known output $y$.
+2. Train that model on some data, $$X$$, with known output $$y$$.
 3. Use that trained model to predict some other set of data
 
 Using their great API, we can access various properties of the trained model.
@@ -265,7 +265,7 @@ print(f"MSE [Training]: {MSE(overfit_model.predict(X), y)}")
     MSE [Training]: 0.013894313269764941
 
 
-This may seem great in theory, however this model will not perform as well when used to predict the value of $$f$$ at points not in the **training set**. (Note that this in-sample error should theoretically be zero. The small positive value is due to rounding errors.) To illustrate this inaccuracy, we generate ten more points uniformly distributed in the interval $[0,3]$ and use the overfit model to predict the value of $$f$$ at those points. We will call this set the **testing set**.
+This may seem great in theory, however this model will not perform as well when used to predict the value of $$f$$ at points not in the **training set**. (Note that this in-sample error should theoretically be zero. The small positive value is due to rounding errors.) To illustrate this inaccuracy, we generate ten more points uniformly distributed in the interval $$[0,3]$$ and use the overfit model to predict the value of $$f$$ at those points. We will call this set the **testing set**.
 
 
 ```python
