@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Polynomial Regression with Cross Validation"
+title:  "Polynomial Regression with Cross-Validation"
 categories: posts
 date:   2019-09-25 4:30:00 -1000
 ---
 
 ## The Goal of this Exercise
 
-In this example, we will atempt to recover the polynomial, $$f(x) = 0.3 \cdot x^3 - 2.0 \cdot x^2 + 4\cdot x + 1.4$$ from a set of noisy observations. Specifically, we will be showing off the power of Cross Validation to prevent overfitting. 
+In this example, we will atempt to recover the polynomial, $$f(x) = 0.3 \cdot x^3 - 2.0 \cdot x^2 + 4\cdot x + 1.4$$ from a set of noisy observations. Specifically, we will be showing off the power of Cross-Validation to prevent overfitting. 
 
 A common problem we face in statistical analysis is discovering the model for which data was sampled from. In the case of polynomial regression, if we aren't careful, we can "fit" the data _too_ well&mdash;we will get more into this later in this lesson.
 
@@ -35,7 +35,7 @@ STYLE_SHEET = "seaborn-notebook"
 ## The Fundamental Goal of Regression
 
 
-Suppose we are given a set of inputs $$X$$&mdash;indicated by the set "A" in the figure&mdash;and a set of inputs $$Y$$&mdash;indicated by the set "B" in the figure. The goal of regression analysis to discover the "mapping," $$f$$, which relates the two sets.
+Suppose we are given a set of inputs $$X$$&mdash;indicated by the set "A" in the figure&mdash;and a set of outputs $$Y$$&mdash;indicated by the set "B" in the figure. The goal of regression analysis to discover the "mapping," $$f$$, which relates the two sets.
 
 ![alt text](https://provosta.files.wordpress.com/2013/03/bijection.png?w=600&h=322)
 
@@ -213,7 +213,7 @@ $$\text{MSE}\left(\hat{f}\right) = \sum_{i}^{N} \left(\hat{f}(X_i) - Y_i\right)^
 
 To get a more indpeth understanding of optimization and the choice of cost functions, see my optimization notebook **INSERT LINK**.
 
-However, there will be some major pitfalls if we follow this approach naively. Suppose we had two datapoints, we can fit that data with a line and achieve 100% accuracy. Similarly, if we have three data points, we can perfectly fit that with a quadratic. If we continue this process, we can quickly see, no matter the amount of observations, if we specify a $$N-1$$ degree polynomial which will express the data with 100% accuracy. This is an example of overfitting. If you have a hard time visualizing this, take the time to draw some examples.
+However, there will be some major pitfalls if we follow this approach naively. Suppose we had two datapoints, we can fit that data with a line and achieve 100% accuracy. Similarly, if we have three data points, we can perfectly fit that with a quadratic. If we continue this process, we can quickly see&mdash;no matter the amount of observations&mdash;if we specify a $$N-1$$ degree polynomial it will express the data with near perfect accuracy. This is an example of overfitting over overparameterization. If you have a hard time visualizing this, take the time to draw some examples to convince yourself.
 
 To visualize this, let us fit an $$N-1$$ degree polynomial to our observations $$X$$ and $$y$$.
 
@@ -232,7 +232,7 @@ print(f"Coefficients: {overfit_model.coef_}")
       5.49131564e+04 -2.08470731e+04  3.96910137e+03 -2.98659424e+02]
 
 
-As we can see, we fit 19th degree polynomial. Let us try to visualize (1) the true mapping, (2) the noisy observations, and (3) the overfit model. We will be using the `np.clip` to trim the fit function because it oscillates quite vigorously.
+As we can see, we fit a 19th degree polynomial. Let us try to visualize (1) the true mapping, (2) the noisy observations, and (3) the overfit model. We will be using the `np.clip` to trim the fit function because it oscillates quite vigorously.
 
 
 ```python
@@ -255,7 +255,7 @@ with plt.style.context(STYLE_SHEET):
 ![png](images/2019-09-25-polynomial_regression_03.png)
 
 
-As we can see from this plot, the fitted $$N-1$$-degree polynomial is significantly less smooth than the true polynomial, $$f$$. This roughness results from the fact that the $$N−1$$-degree polynomial has enough parameters to account for the noise in the model, instead of the true underlying structure of the data. Such a model is called overparametrized or overfit. If we inspect the MSE, we find it is extremely small, this is because we learned to fit the **training data** almost _perfectly_.
+As we can see from this plot, the fitted $$N-1$$-degree polynomial is significantly less smooth than the true polynomial, $$f$$. This roughness results from the fact that the $$N−1$$-degree polynomial has enough parameters to account for the noise in the model, instead of the true underlying structure of the data. Such a model is called overparametrized or overfit. If we inspect the MSE, we find it is extremely small, this is because we learned to fit the **training data** _almost_ perfectly.
 
 
 ```python
@@ -304,7 +304,7 @@ print(f"MSE [Testing]: {MSE(overfit_model.predict(prediction_X), prediction_y)}"
 
 And as we can see, this is **many** orders of magnitude greater than MSE observed in the training set. This awful predictive performance of a model with excellent in-sample error illustrates the need for cross-validation to prevent overfitting.
 
-## K-Fold Cross Validation
+## K-Fold Cross-Validation
 
 k-fold cross-validation is a resampling procedure used to evaluate the performance of statistical models on unseen data. By using unseen data to fine tune a generalized model, we can estimate how this model is expected to peform when used to make predictions about data not "seen" during the training of the model.
 
