@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Numpy"
 categories: posts
-date:   2019-02-22 12:00:00 -1000
+date:   2018-02-22 12:00:00 -1000
 ---
 
 ## What is Numpy?
@@ -618,7 +618,7 @@ with plt.style.context(STYLE_SHEET):
     restyle_fig(ax)
 ```
 
-![png](images/2019-02-22-intro_numpy_01.png)
+![png](images/2018-02-22-intro_numpy_01.png)
 
 
 ### Scatter Plot
@@ -637,7 +637,7 @@ with plt.style.context(STYLE_SHEET):
     restyle_fig(ax)
 ```
 
-![png](images/2019-02-22-intro_numpy_02.png)
+![png](images/2018-02-22-intro_numpy_02.png)
 
 
 ### Errorbar Plot
@@ -658,7 +658,7 @@ with plt.style.context(STYLE_SHEET):
     restyle_fig(ax)
 ```
 
-![png](images/2019-02-22-intro_numpy_03.png)
+![png](images/2018-02-22-intro_numpy_03.png)
 
 
 ## Final Exercise
@@ -723,5 +723,5 @@ with plt.style.context(STYLE_SHEET):
 ```
 
 
-![png](images/2019-02-22-intro_numpy_04.png)
+![png](images/2018-02-22-intro_numpy_04.png)
 
