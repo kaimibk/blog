@@ -663,28 +663,28 @@ with plt.style.context(STYLE_SHEET):
 
 ## Final Exercise
 
-What we will do now is create some fake data generated from a simple model--a line--then we will "scramble" the data by adding some random noise. **Next seminar**, we will attempt to "recover" the mapping, $X \to Y$. That is to say, figure out the underlying model by which the data was created.
+What we will do now is create some fake data generated from a simple model&mdash;a line&mdash;then we will "scramble" the data by adding some random noise. **Next seminar**, we will attempt to "recover" the mapping, $$X \to Y$$. That is to say, figure out the underlying model by which the data was created.
 
-Let us define a true slope, $m=2.0$, and a true intercept $b=1.5$.
+Let us define a true slope, $$m=2.0$$, and a true intercept $b=1.5$.
 
 1) Randomly generate an array of 20 uniformly-distributed x values from the domain (0,2).
 
 2) Sort the values in ascending order.
 
-3) Define a variable, $y_{true}$, which evalues the following:
+3) Define a variable, $$y_{true}$$, which evalues the following:
 
 $$y_{true} = m\cdot x + b$$
 
-4) Define a variable, $y_{err}$, which is an array of uniformly sampled values between 0.1 and 0.2 **of the same size as x**.
+4) Define a variable, $$y_{err}$$, which is an array of uniformly sampled values between 0.1 and 0.2 **of the same size as x**.
 
-5) Resample $y$ data with noise from a normal distribution. That is to say,
+5) Resample $$y$$ data with noise from a normal distribution. That is to say,
 
 $$y \sim \mathcal{N} [\mu = y_{true}, \sigma = y_{err}]$$
-where $\mu$ is the mean, and $\sigma$ is the standard deviation. _hint_: np.normal()
+where $$\mu$$ is the mean, and $$\sigma$$ is the standard deviation. _hint_: np.normal()
 
-6) Produce an error bar plot, with x on the x axis, y on the y axis, and yerr as error bars.
+6) Produce an error bar plot, with x on the x-axis, y on the y-axis, and yerr as error bars.
 
-7) Overplot as a line, the $y_{true}$ against x.
+7) Overplot as a line, the $$y_{true}$$ against $$x$$.
 
 ### Final Exercise Solution
 
@@ -709,11 +709,11 @@ y_err = np.random.uniform(0.1, 0.2, size=len(x))
 # (5)
 y = np.random.normal(y_true, y_err)
 
-# (6)
 with plt.style.context(STYLE_SHEET):
     fig = plt.figure(figsize=(16,9))
     ax = plt.gca()
     
+    # (6)
     ax.errorbar(x, y, y_err, fmt='.', label='Data w/ Error')
 
     # (7)
