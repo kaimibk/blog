@@ -9,7 +9,7 @@ dl, dd, ol, ul, figure {
 }
 
 hr {
-  border-color: $orange-color;
+  border:1px solid $orange-color;
   background: $orange-color;
 }
 
@@ -71,7 +71,6 @@ img {
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       border-radius: 50%;
-      background:url("http://www.electricvelocity.com.au/Upload/Blogs/smart-e-bike-side_2.jpg") center no-repeat;
       background-size:cover;
       margin: 5px 30px;
   }
@@ -123,7 +122,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $brand-color; //darken($brand-color, 5%);
   }
 
   &:hover {
@@ -157,8 +156,6 @@ blockquote {
   }
 }
 
-
-
 /**
  * Code formatting
  */
@@ -184,7 +181,6 @@ pre {
     padding-left: 0;
   }
 }
-
 
 
 /**
@@ -228,7 +224,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: #{$brand-color};
     padding-right: 5px;
     vertical-align: text-top;
 }
