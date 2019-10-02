@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="home">
-  <hr>
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -12,8 +11,6 @@ layout: default
     <p style="float: left;"><img src="{{ site.avatar }}" class="avatar" style="width: 300px"></p>
     <p>{{ content }}</p>
   </div>
-  <br>
-  <hr>
   <br>
 
   {%- if site.posts.size > 0 -%}
