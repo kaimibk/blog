@@ -301,7 +301,7 @@ Below are some common probability distributions.
 
 The uniform distribution states that all values are equally probable. For example, consider a dice. Assuming the dice is fair, all values $\{1, 2, 3, 4, 5, 6\}$ are equally likely to appear. Specifically, each value has a probability of $1/6$.
 
-<img src=https://upload.wikimedia.org/wikipedia/commons/9/96/Uniform_Distribution_PDF_SVG.svg width="500px">
+![uniform distribution example](https://upload.wikimedia.org/wikipedia/commons/9/96/Uniform_Distribution_PDF_SVG.svg)
 
 Mathematically, given samples on the domain $x \in [a,b]$
 
@@ -337,7 +337,7 @@ $$P(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi \sigma^2}} \exp\left(-\frac{(x - \m
 
 For example, the 3-$\sigma$ rule.
 
-<img src=https://www.mathsisfun.com/data/images/normal-distrubution-3sds.svg width="250px">
+![3 sigma rule example](https://www.mathsisfun.com/data/images/normal-distrubution-3sds.svg)
 
 
 ```python
