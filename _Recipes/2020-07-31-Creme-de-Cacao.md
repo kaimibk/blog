@@ -2,26 +2,30 @@
 layout: recipe
 recipe: true
 title:  Creme de Cacao
-# feature: https://drive.google.com/thumbnail?id=1fcdJOY7jlO4W9uPC1gox-lww7qmrlKO6
-excerpt: ""
+excerpt: "Cacao flavored liqueur"
 ingredients:
-    - ingredient: Creme de menthe
-      amount: 1.5 oz
-      brand: Homemade
-    - ingredient: Creme de cacao
-      amount: 1.5 oz
-      brand: Homemade
-    - ingredient: Vanilla Ice Cream
-      amount: 3 scoops
-      brand: Tillamook
+    - ingredient: Cacao Nibs
+      amount: 2/3 cups
+    - ingredient: Vodka
+      amount: 1 1/3 cups
+      brand: titos
+    - ingredient: Water
+      amount: 1 cup
+    - ingredient: Granulated Sugar
+      amount: 1 1/2 cups
+    - ingredient: Vanilla Extract
+      amount: 2 teaspons
 notes:
-    - Combine  the ingredients in a blender, pulse until the mixture is smooth
-    - Drizzle chocolate syrup in side of a chilled milkshake glass
-    - Pour mixture into  glass. Garnish with whipped cream, milano cookie, and a straw
+    - Combine the cacao nibs and vodka in a sealable glass jar. Shake and then let steep for 8 days.
+    - After the initial steeping period, bring the sugar and water to a boil. Let this syrup cool, then add to the jar along with the vanilla extract. Let steep for an additional day.
+    - Strain out the nibs through a sieve and then filter through a coffee filter into the bottle or jar you'll use for storage.
 version: 1
 tag:
     - liquer
     - creme-de-cacao
     - cacao
     - vodka
+    - homemade
 ---
+
+Adapted from [seriouseats](https://www.seriouseats.com/recipes/2012/01/diy-chocolate-liqueur-how-to-make-creme-de-cacao-recipe.html). I will be modifying the ratios in a future update and using whole vanilla beans.
