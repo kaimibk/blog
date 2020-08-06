@@ -1,0 +1,43 @@
+---
+layout: page
+title: Recipe Tag Archive
+description: "An archive of recipes sorted by tag."
+comments: false
+---
+<!-- {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %} -->
+
+<!-- {% capture recipe_tags %}
+  {% for recipe in site.Recipes %}
+    {% for tag in recipe.tag %}
+      {{ tag }}
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  {% endfor %}
+{% endcapture %} -->
+
+{% assign recipe_tags =  site.Recipes | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+
+<ul class="entry-meta inline-list">
+  {% for item in (0..recipe_tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ recipe_tags[item] | strip_newlines }}{% endcapture %}
+    <li>
+      <a href="#{{ this_word }}" class="tag"><span class="term">{{ this_word }}</span>
+      </a>
+    </li>
+  {% endunless %}{% endfor %}
+</ul>
+
+{% for item in (0..recipe_tags.size) %}{% unless forloop.last %}
+  {% capture this_word %}{{ recipe_tags[item] | strip_newlines }}{% endcapture %}
+	<article>
+	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word | capitalize }}</h2>
+		<ul>
+    {% for post in site.Recipes %}
+      {% if post.title != null %}
+        {% if post.tag contains this_word %}
+          <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endif %}{% endfor %}
+		</ul>
+	</article><!-- /.hentry -->
+{% endunless %}{% endfor %}

@@ -1,70 +1,86 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site
+title:              Kaimi Kahihikolo
+bio:                An AI/ML data scientist that likes to eat good food and drink even better whiskey.
+description:        Data Scientist, Booz Allen Hamilton
+reading_time:       true
+words_per_minute:   100
+logo:               'assets/img/avatar.jpg'
+# background:         'assets/img/solid-orange-background.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+# url:                https://taylantatli.github.io/Moon
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Kaimi Kahihikolo
-email: kaimibk@hawaii.edu
-description: My personal website
-baseurl: "/blog/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-149124828-1
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
-github_username:  kaimibk
-linkedin_username: kaimibk
-avatar: https://avatars1.githubusercontent.com/u/20824806?s=400&u=035cd7c1d604d1a7ba8c9cc405d2359e7620721b&v=4
+# Comments
+disqus_shortname:   taylantatli
 
-# Build settings
-markdown: kramdown
-mathjax: true
-theme: minima
-plugins:
+# Social
+# if you don't have any of social below, comment the line.
+google:
+  #plus:            #username
+  analytics: UA-149124828-1
+  verify: google5b9fa3b585d945ca.html
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+# twitter:            username
+# facebook:           username
+github-url:         kaimibk
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:          kaimibk
+#xing:              username
+instagram:          kaimikahihikolo
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+# steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-toc
   - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
 
 collections:
-  Bayesian_Analysis:
+  Projects:
     output: true
-    title: Bayesian Analysis for the Logistical Sciences
-    description: Notes on the book, _[Bayesian Logical Data Analysis for the Physical Sciences](https://www.amazon.com/Bayesian-Logical-Analysis-Physical-Sciences/dp/0521150124/ref=sr_1_fkmrnull_3?crid=1B8EBBP98CCSR&keywords=bayesian+logical+data+analysis+for+the+physical+sciences&qid=1558065973&s=gateway&sprefix=Bayesian+logical%2Caps%2C222&sr=8-3-fkmrnull)_ by Phil Gregory. These notes are not meant to be complete, just key information and examples from the text.
-  Neural_Networks_and_Deep_Learning:
+    title: Projects
+  Recipes:
     output: true
-    title: Neural Networks and Deep Learning
-    description: Notes from the first course in the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng.
-  Misc:
-    output: true
-    title: Miscellaneous Notes
-    description: Miscellaneous notes from research papers, interesting articles, etc.
-  Intro_Data_Science:
-    output: true
-    title: Introduction to Data Science Tutorials and Notes
-    description: Miscellaneous tutorials and notes related to data science
-  Outreach:
-    output: false
-    title: Outreach
-  Research:
-    output: false
-    title: Research
+    title: Recipes
