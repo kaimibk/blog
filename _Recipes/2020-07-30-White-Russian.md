@@ -2,7 +2,6 @@
 layout: recipe
 recipe: true
 title:  White Russian Variation
-# feature: https://assets.epicurious.com/photos/5e41a6d175661800087cc87c/6:4/w_620%2Ch_413/OldFashioned_HERO_020520_619.jpg
 excerpt: "A white russion variation based on the 'The Dude's Delight' by Tim Webb."
 ingredients:
     - ingredient: Vodka

@@ -609,7 +609,7 @@ y = x**2 + x + 2.0
 ax.plot(x, y)
 ```
 
-![png](/assets/img/2018-02-22-Intro_Numpy/intro_numpy_01.png)
+![png]({{ site.url }}/assets/img/2018-02-22-Intro_Numpy/intro_numpy_01.png)
 
 ### Scatter Plot
 
@@ -624,7 +624,7 @@ y = x**2 + x + 2.0
 ax.scatter(x, y)
 ```
 
-![png](/assets/img/2018-02-22-Intro_Numpy/intro_numpy_02.png)
+![png]({{ site.url }}/assets/img/2018-02-22-Intro_Numpy/intro_numpy_02.png)
 
 
 ### Errorbar Plot
@@ -642,7 +642,7 @@ ax.errorbar(x, y+yerr, yerr, fmt='.')
 ax.plot(x, y) # over plot the true
 ```
 
-![png](/assets/img/2018-02-22-Intro_Numpy/intro_numpy_03.png)
+![png]({{ site.url }}/assets/img/2018-02-22-Intro_Numpy/intro_numpy_03.png)
 
 
 ## Final Exercise
@@ -704,5 +704,5 @@ ax.plot(x, y_true, label='True Mapping')
 ```
 
 
-![png](/assets/img/2018-02-22-Intro_Numpy/intro_numpy_04.png)
+![png]({{ site.url }}/assets/img/2018-02-22-Intro_Numpy/intro_numpy_04.png)
 

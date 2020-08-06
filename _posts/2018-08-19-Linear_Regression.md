@@ -76,7 +76,7 @@ ax.set_xlabel('$x$')
 ax.set_ylabel('$y$')
 ```
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_01.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_01.png)
 
 **Now let's forget that we did that**. We know nothing about the model parameters, except that we think the true values of the data are well-described by a linear relation! We would like to measure the "best-fit" parameters of this model (for a straight line, the slope and intercept $$(a,b)$$) given the data above. In math, our model for the data $$y$$ is:
 $$
@@ -227,7 +227,7 @@ axes[0].set_ylabel('$b$')
 fig.tight_layout()
 ```
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_02.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_02.png)
 
 
 There are minima in both cases near the true values of the parameters (good), but the gradient of the function is clearly different (the color scales are the same in each panel above). Let's see what happens when we minimize these objective functions to get the best-fit parameter values:
@@ -270,7 +270,7 @@ ax.set_xlabel('$x$')
 ax.set_ylabel('$y$')
 ```
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_03.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_03.png)
 
 Well, by eye they both look reasonable! Are we done?! Not quite&mdash;how do we choose between the two?!
 
@@ -490,7 +490,7 @@ ax.legend(loc='best')
 ```
 
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_04.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_04.png)
 
 # Doing it again with Scipy
 Above we saw how to implement our own least-squares estimator. We will use a function in scipy called ```scipy.optimize.curve_fit```. Which uses non-linear least squares to fit a function to the data.
@@ -564,7 +564,7 @@ ax.set_xlabel('$x$')
 ax.set_ylabel('$y$')
 ```
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_05.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_05.png)
 
 # Fitting more complex functions
 Before we tried to fit data generated from a rather simple model, a line. Now let's see how to repeat this procedure for a more complicated function, such as a Gaussian. Recall, a Gaussian has the functional form,
@@ -596,7 +596,7 @@ ax.plot(x_model, y_model)
 
 restyle_fig(ax)
 ```
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_06.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_06.png)
 
 Now let's add some Gaussian noise to the data.
 
@@ -621,7 +621,7 @@ ax.plot(x_model, y_model, label='truth')
 ```
 
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_07.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_07.png)
 
 Just like before, let us forget that we generated the model, or know the true values of A, b, or c.
 
@@ -666,7 +666,7 @@ _params = [1, 0, 5]
 ax.plot(x_model, gauss_model(x_model, *_params))
 ```
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_08.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_08.png)
 
 
 ## Exercise 5
@@ -696,7 +696,7 @@ ax.plot(x_model, y_model, color='b', label='Truth', lw=5, alpha=0.5)
 ax.plot(x_model, gauss_model(x_model, *popt), color='r', label='Fit')
 ```
 
-![png](/assets/img/2018-08-19-Linear_Regression/Linear_Regression_09.png)
+![png]({{ site.url }}/assets/img/2018-08-19-Linear_Regression/Linear_Regression_09.png)
 
 ```python
 print(f"Optimal parameters: A={popt[0].round(2)}, b={popt[1].round(2)}, c={popt[2].round(2)}")
