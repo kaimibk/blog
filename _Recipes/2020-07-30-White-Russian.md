@@ -20,10 +20,10 @@ ingredients:
 garnishes:
   - Cocoa powder
 notes:
-    - Combine ingredients in shaker
-    - Add crushed ice, shake hard for 10 seconds
-    - Double strain into coupe glass
-    - Dust with cocoa powder for garnish
+    - Combine ingredients in shaker.
+    - Add crushed ice, shake hard for 10 seconds.
+    - Double strain into coupe glass.
+    - Dust with cocoa powder for garnish.
 version: 1
 tag:
     - cocktail

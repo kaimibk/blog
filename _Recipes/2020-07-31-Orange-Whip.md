@@ -25,9 +25,9 @@ ingredients:
 garnishes:
   - Orange Wheel
 notes:
-    - Combine ingredients in a blender with a crushed ice cube
-    - Pulse until mixture is smooth
-    - Pour into Collins glass, serve with a straw and an orange wheel
+    - Combine ingredients in a blender with a crushed ice cube.
+    - Pulse until mixture is smooth.
+    - Pour into Collins glass, serve with a straw and an orange wheel.
 version: 1
 tag:
     - cocktail

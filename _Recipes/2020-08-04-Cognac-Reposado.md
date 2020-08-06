@@ -20,9 +20,9 @@ ingredients:
       amount: 2 dashes
       brand: Angostura
 notes:
-    - Combine ingredients in a rocks glass
-    - Add a large ice cube and stir
-    - Express orange peel and discard
+    - Combine ingredients in a rocks glass.
+    - Add a large ice cube and stir.
+    - Express orange peel and discard.
 version: 1
 tag:
     - cocktail

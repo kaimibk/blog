@@ -21,9 +21,9 @@ garnishes:
   - Milano Mint Chocolate Cookie
   - Whipped Cream
 notes:
-    - Combine  the ingredients in a blender, pulse until the mixture is smooth
-    - Drizzle chocolate syrup in side of a chilled milkshake glass
-    - Pour mixture into  glass. Garnish with whipped cream, milano cookie, and a straw
+    - Combine  the ingredients in a blender, pulse until the mixture is smooth.
+    - Drizzle chocolate syrup in side of a chilled milkshake glass.
+    - Pour mixture into  glass. Garnish with whipped cream, milano cookie, and a straw.
 version: 1
 tag:
     - cocktail
@@ -37,5 +37,5 @@ tag:
     - collins
 ---
 
-- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-07-31-Creme-de-Menthe.md %}) to see my recipe for creme de menthe
-- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-07-31-Creme-de-Cacao.md %}) to see my recipe for creme de cacao
+- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-07-17-Creme-de-Menthe.md %}) to see my recipe for creme de menthe
+- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-07-17-Creme-de-Cacao.md %}) to see my recipe for creme de cacao

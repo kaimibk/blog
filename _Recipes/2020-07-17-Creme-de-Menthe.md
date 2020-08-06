@@ -23,7 +23,7 @@ notes:
     - Strain twice to remove all mint leaves, keep in resealable bottle. Optionally, add drops of green food dye until desired color.
 version: 1
 tag:
-    - liquer
+    - liqueur
     - creme-de-menthe
     - mint
     - vodka
