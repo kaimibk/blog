@@ -21,7 +21,7 @@ notes:
     - Strain out the nibs through a sieve and then filter through a coffee filter into the bottle or jar you'll use for storage.
 version: 1
 tag:
-    - liqueur
+    - infusion
     - creme-de-cacao
     - cacao
     - vodka

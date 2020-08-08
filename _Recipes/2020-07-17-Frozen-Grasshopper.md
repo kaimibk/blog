@@ -15,14 +15,14 @@ ingredients:
       amount: 3 scoops
       brand: Tillamook
     - ingredient: Whole Milk
-      amount: 1/4 cup
+      amount: 0.25 cup
 garnishes:
-  - Chocolate syrup
+  - Chocolate Syrup
   - Milano Mint Chocolate Cookie
   - Whipped Cream
 notes:
     - Combine  the ingredients in a blender, pulse until the mixture is smooth.
-    - Drizzle chocolate syrup in side of a chilled milkshake glass.
+    - Drizzle chocolate syrup in side of a chilled milkshake (or collins) glass.
     - Pour mixture into  glass. Garnish with whipped cream, milano cookie, and a straw.
 version: 1
 tag:
@@ -34,7 +34,7 @@ tag:
     - ice-cream
     - chocolate
     - blended
-    - collins
+    - collins-glass
 ---
 
 - Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-07-17-Creme-de-Menthe.md %}) to see my recipe for creme de menthe

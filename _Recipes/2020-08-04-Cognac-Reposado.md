@@ -11,10 +11,10 @@ ingredients:
       amount: 1 oz
       brand: Courvoisier VSOP
     - ingredient: Sweet Vermouth
-      amount: 3/4 oz
+      amount: 0.75 oz
       brand: Carpano Antinca Formula
     - ingredient: Curacao
-      amount: 1/4 oz
+      amount: 0.25 oz
       brand: Grand Mariner
     - ingredient: Orange Bitters
       amount: 2 dashes
@@ -32,5 +32,5 @@ tag:
     - curacao
     - orange-bitters
     - stirred
-    - rocks
+    - rocks-glass
 ---

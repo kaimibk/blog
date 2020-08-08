@@ -11,14 +11,14 @@ ingredients:
       amount: 1 oz
       brand: Fair
     - ingredient: Benedictine
-      amount: 1/4 oz
+      amount: 0.25 oz
       brand: D.O.M.
     - ingredient: Whole Milk
       amount: 4 oz
     - ingredient: Cold Brew Coffee
       amount: 1 oz
 garnishes:
-  - Cocoa powder
+  - Cocoa Powder
 notes:
     - Combine ingredients in shaker.
     - Add crushed ice, shake hard for 10 seconds.
@@ -29,9 +29,9 @@ tag:
     - cocktail
     - vodka
     - coffee-liquer
-    - cold-brew
+    - coffee
     - benedictine
     - milk
     - shaken
-    - coupe
+    - coupe-glass
 ---

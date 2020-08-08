@@ -12,7 +12,7 @@ ingredients:
       amount: 1 oz
       brand: Kohala
     - ingredient: Curacao
-      amount: 1/2 oz
+      amount: 0.5 oz
       brand: Grand Mariner
     - ingredient: Vanilla Ice Cream
       amount: 2 scoops
@@ -38,5 +38,5 @@ tag:
     - ice-cream
     - orange-juice
     - blended
-    - collins
+    - collins-glass
 ---
