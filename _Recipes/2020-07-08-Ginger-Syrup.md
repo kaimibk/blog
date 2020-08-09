@@ -1,7 +1,7 @@
 ---
 layout: recipe
 recipe: true
-title:  Honey Simple Syrup
+title:  Ginger Simple Syrup
 excerpt: "A substitue for standard simple syrup"
 ingredients:
     - ingredient: Fresh Ginger, peeled and chopped
