@@ -10,7 +10,7 @@ ingredients:
     - ingredient: Honey Syrup
       amount: 0.25 oz
     - ingredient: Orange Bitters
-      amount: 3 oz
+      amount: 3 dashes
       brand: Angostura
 notes:
     - Combine ingredients in a chilled mixing glass
