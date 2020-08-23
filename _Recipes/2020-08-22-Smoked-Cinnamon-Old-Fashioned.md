@@ -1,7 +1,7 @@
 ---
 layout: recipe
 recipe: true
-title:  Smoked Oaxacan Old Fashioned
+title:  Smoked Cinnamon Old Fashioned
 excerpt: An extra smoky tequila based old fashioned smoked with Kiawe wood
 ingredients:
     - ingredient: Bourbon, Cask Strength
