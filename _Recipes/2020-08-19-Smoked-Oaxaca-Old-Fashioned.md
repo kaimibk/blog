@@ -28,6 +28,7 @@ tag:
     - agave
     - orange
     - smoked
+    - orange-bitters
     - stirred
     - rocks-glass
 ---

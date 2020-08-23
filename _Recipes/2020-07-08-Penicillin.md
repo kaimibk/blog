@@ -29,6 +29,7 @@ version: 1
 tag:
     - cocktail
     - scotch
+    - whiskey
     - islay
     - lemon
     - ginger

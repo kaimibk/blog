@@ -26,7 +26,6 @@ tag:
     - rum
     - pineapple
     - lime
-    - simple-syrup
     - shaken
     - coupe-glass
 ---

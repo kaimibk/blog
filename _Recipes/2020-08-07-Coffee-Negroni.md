@@ -33,6 +33,7 @@ tag:
     - coffee
     - sweet-vermouth
     - campari
+    - orange-bitters
     - stirred
     - rocks-glass
 ---

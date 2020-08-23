@@ -1,7 +1,7 @@
 ---
 layout: recipe
 recipe: true
-title:  Earl Grey Old Fashioned Variation
+title:  Earl Grey Gin Old Fashioned Variation
 excerpt: "A variation on an old fashioned cocktail using earl grey infused gin"
 ingredients:
     - ingredient: Earl Grey Infused Gin
@@ -23,6 +23,7 @@ tag:
     - tea
     - honey
     - milk
+    - orange-bitters
     - stirred
     - rocks-glass
 ---
