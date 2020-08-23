@@ -2,7 +2,7 @@
 layout: recipe
 recipe: true
 title:  Smoked Cinnamon Old Fashioned
-excerpt: An extra smoky tequila based old fashioned smoked with Kiawe wood
+excerpt: A bourbon-based old fashioned made with smoked cinnamon
 ingredients:
     - ingredient: Bourbon, Cask Strength
       amount: 1.5 oz
