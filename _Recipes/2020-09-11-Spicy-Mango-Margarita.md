@@ -37,5 +37,5 @@ tag:
     - rocks-glass
 ---
 
-- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-09-21-Smoked-Ancho-Salt.md %}) to see my recipe for the kiawe wood smoked ancho chile salt.
-- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-09-21-Sweet-Sour-Mix.md %}) to see my recipe for the sweet and sour mix.
+- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-09-11-Smoked-Ancho-Salt.md %}) to see my recipe for the kiawe wood smoked ancho chile salt.
+- Click [HERE]({{ site.baseurl }}{% link _Recipes/2020-09-11-Sweet-Sour-Mix.md %}) to see my recipe for the sweet and sour mix.
