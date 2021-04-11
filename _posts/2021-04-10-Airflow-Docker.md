@@ -4,9 +4,11 @@ title:  "Introduction to Apache Airflow in Docker"
 excerpt: >- 
     Introduction to Apache Airflow for process orchestration in a docker multi-container environment.
 tag: 
-- docker
-- apache
 - airflow
+- apache
+- bash
+- docker
+- python
 - tutorial
 toc: True
 # updated: 2021-04-09
