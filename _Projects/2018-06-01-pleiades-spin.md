@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Do the Pleiades Spin in the Same Direction?"
-excerpt: "Determining if the spin of cluster members are isotropically—randomly—distributed or inherit some global rotation."
+excerpt: "Determining if the spin of cluster members are isotropically—randomly—distributed or inherit some global rotation using Heirarchical Bayesian Analysis."
 tag:
-- bayesian analysis
+- bayesian-analysis
 - probability
 - statistics
 - calculus

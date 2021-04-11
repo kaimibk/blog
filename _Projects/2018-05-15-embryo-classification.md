@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SVM Binary Classification on Embryo Growth Curves"
-excerpt: "Analyzing embryotic growth curves to determine the probability of euploid/aneuploid creation."
+excerpt: "Analyzing embryotic growth curves to determine the probability of euploid/aneuploid creation using the scikit learn framework."
 tag:
 - research
 - machine learning

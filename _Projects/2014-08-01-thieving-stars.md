@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Thieving Stars Caught by Kepler: A Search for Intermittent Accretors in Kepler Binary Systems"
-excerpt: ""
+excerpt: "Analyzing photometric data by Kepler to search for symbiotic binary systems."
 tag:
 - research
 - astronomy

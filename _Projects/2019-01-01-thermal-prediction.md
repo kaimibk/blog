@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prediction of Thermal Output Trends"
-excerpt: "Classifying thermal types and forecasting future eruptions."
+excerpt: "Classifying thermal types and forecasting future eruptions using Gaussian Mixture Modeling and Bayesian Analysis."
 tag:
 - deep learning
 - forecasting
