@@ -84,7 +84,7 @@ plt.show()
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/mean1.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/mean1.png)
 
 
 As you can see, we achieve the expected result. However, a fundamental flaw of the mean is that it is often sensitive to "outliers"&mdash;we will go into more detail about what it means to be an outlier. Let us do the same procedure as above, but let us make on the elements very large.
@@ -111,7 +111,7 @@ plt.show()
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/mean2.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/mean2.png)
 
 
 As you can see, by changing one element in the set, the mean has shifted dramatically. Surely if we were interested in the "center" of the numbers, is it informative to be so influenced by one very large number?
@@ -151,7 +151,7 @@ plt.show()
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/median1.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/median1.png)
 
 
 Now, let us take a look at the median when there is an outlier element in the set.
@@ -176,7 +176,7 @@ plt.show()
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/median2.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/median2.png)
 
 
 As we can see, in this example, the median is not influenced by the presence of that outlier.
@@ -226,7 +226,7 @@ plt.legend()
 plt.show()
 ```
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/all-metrics.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/all-metrics.png)
 
 
 ## Metrics for Spread/Dispersion
@@ -334,7 +334,7 @@ plt.legend()
 plt.show()
 ```
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/uniform1.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/uniform1.png)
 
 
 ### Normal (Gaussian or Bell Curve) Distribution
@@ -362,7 +362,7 @@ plt.legend()
 plt.show()
 ```
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/normal1.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/normal1.png)
 
 
 There are many more distributions, but for the sake of time we will stop with Uniform and Normal. If you are interested in seeing all the distributions you have access to in NumPy and Scipy, check the [docs](https://docs.scipy.org/doc/scipy/reference/stats.html).
@@ -636,7 +636,7 @@ plt.show()
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-11-06-Desc_Stats/central-limit.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-11-06-Desc_Stats/central-limit.png)
 
 
 Hmmm this looks oddly familiar. This is a direct example of the central limit theorem in action.

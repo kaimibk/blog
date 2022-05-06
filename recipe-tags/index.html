@@ -35,7 +35,7 @@ comments: false
     {% for post in site.Recipes %}
       {% if post.title != null %}
         {% if post.tag contains this_word %}
-          <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+          <li class="entry-title"><a href="{{ site.url | absolute_url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endif %}
       {% endif %}{% endfor %}
 		</ul>

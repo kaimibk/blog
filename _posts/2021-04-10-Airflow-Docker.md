@@ -124,11 +124,11 @@ ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
 Once you see things running, visit `localhost:8080`. You should immediately see the following screen:
 
 
-![Apache Airflow Home Page]({{ site.url }}/assets/img/2021-04-10-Airflow_Docker/airflow-home.png)
+![Apache Airflow Home Page]({{ site.url | absolute_url }}/assets/img/2021-04-10-Airflow_Docker/airflow-home.png)
 
 In the main table are example DAGs that&mdash;optionally&mdash;come with your Apache Airlfow&mdash;defined in the environment variables. Let's try to play around with the `example_bash_operator` dag. When you click on the DAG, you'll be redirected to a "Tree View" of the process&mdash;I prefer to look at the "Graph View", so I recommend clicking on that button.
 
-![Apache Airflow Home Page]({{ site.url }}/assets/img/2021-04-10-Airflow_Docker/airflow-example-bash-dag.png)
+![Apache Airflow Home Page]({{ site.url | absolute_url }}/assets/img/2021-04-10-Airflow_Docker/airflow-example-bash-dag.png)
 
 ### Understanding the Example DAG
 

@@ -15,33 +15,33 @@ layout: compress
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                    <a href="{{ site.url }}">
+                    <a href="{{ site.url | absolute_url }}">
                         <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
                     </a>
                     <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
+                        <a class="zoombtn" href="{{ site.url | absolute_url }}">
                         	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
 			            </a>
                     </h3>
                     <hr class="hr-line">
                     <h3 class="title">
-                        <a href="{{ site.url }}">
+                        <a href="{{ site.url | absolute_url }}">
                         	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
 			            </a>
                     </h3>
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
+                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/about">
                          About
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/posts">
+                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/posts">
                          Tutorials
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
+                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/projects">
                          Projects
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/recipes">
+                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/recipes">
                         Recipes
                         </a>
                  </h3>
@@ -52,7 +52,7 @@ layout: compress
                      </h4>
                     
                     {% for post in site.posts limit:3 %}
-                        <a class="btn zoombtn" href="{{ site.url }}{{ post.url }}">
+                        <a class="btn zoombtn" href="{{ site.url | absolute_url }}{{ post.url }}">
                             {{ post.title }}
                         </a>
                     {% endfor %}

@@ -87,7 +87,7 @@ ax.set_xlim(0,3)
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_01.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_01.png)
 
 
 Remember, we haven't "fit" anything yet&mdash;merely displayed the true polynomial we would like to uncover from the data. As we can see, objectively uncovering the underlying model may be tricky.
@@ -192,7 +192,7 @@ print(f"Coefficients: {known_degree_model.coef_}")
 
 
 
-![png]({{ site.url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_02.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_02.png)
 
 
 These values are the coefficients of the fit polynomial, starting with the coefficient of $$x^3$$. We see that they come reasonably close to the true values, from a relatively small set of samples. As neat and tidy as this solution is, we are concerned with the more interesting case where we **do not know the degree of the polynomial**. How do we tell that the data is generated from a 4th degree polynomial, a 5th, or even just a line?
@@ -241,7 +241,7 @@ ax.set_xlim(0,3)
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_03.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_03.png)
 
 
 As we can see from this plot, the fitted $$N-1$$-degree polynomial is significantly less smooth than the true polynomial, $$f$$. This roughness results from the fact that the $$N−1$$-degree polynomial has enough parameters to account for the noise in the model, instead of the true underlying structure of the data. Such a model is called overparametrized or overfit. If we inspect the MSE, we find it is extremely small, this is because we learned to fit the **training data** _almost_ perfectly.
@@ -285,7 +285,7 @@ print(f"MSE [Testing]: {MSE(overfit_model.predict(prediction_X), prediction_y)}"
     MSE [Testing]: 3425.6355273132854
 
 
-![png]({{ site.url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_04.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_04.png)
 
 
 And as we can see, this is **many** orders of magnitude greater than MSE observed in the training set. This awful predictive performance of a model with excellent in-sample error illustrates the need for cross-validation to prevent overfitting.
@@ -355,7 +355,7 @@ ax.set_xlim(0,3)
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_05.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_05.png)
 
 
 We see that the cross-validated estimator is much smoother and closer to the true polynomial than the overfit estimator. The MSE of the cross-validated estimator across the training samples,
@@ -398,7 +398,7 @@ ax.set_xlim(1,24)
 ```
 
 
-![png]({{ site.url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_06.png)
+![png]({{ site.url | absolute_url }}/assets/img/2019-09-25-Polynomial_Regression/polynomial_regression_06.png)
 
 
 The cross-validation process seeks to maximize a score (equivalent to minimizing the negative score). Here, we have plotted negative score here in order to be able to use a logarithmic scale. 
