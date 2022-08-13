@@ -21,7 +21,7 @@ ___
 - Served as Agile scrum master and developer on geographically-distributed teams of over 20 individuals. Resulting in the delivery of technical solutions that consistently exceeded client expectations. Aware of all Agile processes, such as backlog grooming, sprint planning, and user story creation.
 - Sample projects include: (a) detecting temporal differences in surveillance imagery using Siamese CV networks, (b) Deep RL for military Course of Action (COA) analysis, (c) Deep RL for cyber security detection and reaction, (d) ensemble learning for sequence geolocation tagging on the edge, (e) established MLOps reference architectures using Tensorflow Extended.
 
-**Machine Learning Operations and Data Engineering Consultant** | LifeDAN (Feb. 2022 $$\to$$ June 2022)
+**Machine Learning Operations and Data Engineering Consultant** | LifeDNA (Feb. 2022 $$\to$$ June 2022)
 - Performed an internal audit of their cloud infrastructure and ML methods in order to provide recommendations.
 - Crafted reference architecture and implementation to support (1) rapid training, deployment, and monitoring of over 100 ML models in a production environment and (2) scalable and modular data pipelines. Instantiated a Databricks sandbox environment and provided training on the Databricks platform, Apache Spark, and big data best practices. Relevant technologies include: Ray ML, Apache Airflow, Docker, and various AWS services.
 
