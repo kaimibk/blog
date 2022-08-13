@@ -14,16 +14,18 @@ This website is a collection of miscellaneous notes, thoughts, and tutorials.
 ___
 ## Experience
 
-**Data Scientist, Senior Consultant**  | Booz Allen Hamilton (July 2019 $$\to$$ Present)
-- Lead AI R&D developer on the Solutions Engagement Team (SET), aimed at injecting cutting edge technologies to a variety of clients across the DoD. Succesfully developed numerous technical products, leveraging AI technologies such as Natural Language Processing (NLP), Computer Vision, and Reinforcement Learning (RL).
-- Succesfully lead numerous technical presentations to high-ranking government officials 
-<!-- resulting in over $[INSERT] awarded work for the firm. -->
-<!-- - Developed a full end-to-end NLP-powered application, deployed in an AWS production evironment, to significantly reduce the work load for government analysts. -->
-- Lead developer on a prototype aimed at augmenting the current manually-intensive wargaming/planning process by operationalizing top-performing open-source RL algorithms.
-- Served as Agile scrum master and developer, on geographically-distributed teams, resulting in the delivery of technical solutions which exceeded client expectations. Aware of all Agile processes, such as backlog grooming, sprint planning, and user story creation.
+**Data Scientist, Associate**  | Booz Allen Hamilton (July 2019 $$\to$$ Present)
+- Lead AI/ML R&D developer with a focus in delivering cutting edge technologies to a variety of clients across the federal government. Successfully led and developed over a dozen technical solutions, leveraging AI technologies such as Natural Language Processing (NLP), Computer Vision (CV), and Reinforcement Learning (RL).
+- Served as lead data analyst and consultant on the CDCs largest COVID-19 data source, which amounts to over one petabyte of patient medical records. Here I supported various research efforts by immunologists, epidemiologists, virologists, and other researchers during this response to understand COVID-19 and its impacts. Effectively applied my expertise in statistical modeling, big data distributed computing, and visualization to analyze this data and present findings. Successfully lead numerous technical presentations to high-ranking government officials. Relevant technologies include: Databricks (Apache Spark) and AWS SageMaker.
+- Utilized ML-Ops best practices to deploy ML models at scale, including on-prem, Azure, and AWS cloud environments. Leveraged orchestration services, such as Apache Airflow and Kubeflow, on end-to-end frameworks such as Tensorflow Extended, Ray, and PyTorch. Thereby standardizing the process for model development, serving, and monitoring.
+- Served as Agile scrum master and developer on geographically-distributed teams of over 20 individuals. Resulting in the delivery of technical solutions that consistently exceeded client expectations. Aware of all Agile processes, such as backlog grooming, sprint planning, and user story creation.
+- Sample projects include: (a) detecting temporal differences in surveillance imagery using Siamese CV networks, (b) Deep RL for military Course of Action (COA) analysis, (c) Deep RL for cyber security detection and reaction, (d) ensemble learning for sequence geolocation tagging on the edge, (e) established MLOps reference architectures using Tensorflow Extended.
 
+**Machine Learning Operations and Data Engineering Consultant** | LifeDAN (Feb. 2022 $$\to$$ June 2022)
+- Performed an internal audit of their cloud infrastructure and ML methods in order to provide recommendations.
+- Crafted reference architecture and implementation to support (1) rapid training, deployment, and monitoring of over 100 ML models in a production environment and (2) scalable and modular data pipelines. Instantiated a Databricks sandbox environment and provided training on the Databricks platform, Apache Spark, and big data best practices. Relevant technologies include: Ray ML, Apache Airflow, Docker, and various AWS services.
 
-**Machine Learning Researcher**  | University of Hawaiʻi, , at Mānoa (Jan 2018 $$\to$$ June 2019)
+**Machine Learning Researcher**  | University of Hawaiʻi, at Mānoa (Jan 2018 $$\to$$ June 2019)
 - Trained and deployed a soft-margin Support Vector Machine (SVM) using Scikit-Learn to perform binary classification on bioinformatic data.
 - Developed ETL algorithms to convert patient records into a consolidated data warehouse format.
 
