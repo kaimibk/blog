@@ -85,3 +85,6 @@ collections:
   Recipes:
     output: true
     title: Recipes
+  SpiritsList:
+    output: true
+    title: Spirits List

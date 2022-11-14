@@ -38,7 +38,8 @@ layout: compress
         </div>
     </header>
     {% include scripts.html %}
-    <script src="{{ site.url | absolute_url }}/assets/js/wow.min.js"></script>
+    <!-- <script src="{{ site.url | absolute_url }}/assets/js/wow.min.js"></script> -->
+    <script src="{{ '/assets/js/wow.min.js' | prepend: site.baseurl }}"></script>
     <script type="text/javascript">(new WOW).init();</script>
 </body>
 </html>

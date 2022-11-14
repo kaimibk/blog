@@ -15,35 +15,38 @@ layout: compress
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                    <a href="{{ site.url | absolute_url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                    <a href="{{ '/' | prepend: site.baseurl }}">
+                        <img src="/{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
                     </a>
                     <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url | absolute_url }}">
+                        <a class="zoombtn" href="{{ '/' | prepend: site.baseurl }}">
                         	<p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
 			            </a>
                     </h3>
                     <hr class="hr-line">
                     <h3 class="title">
-                        <a href="{{ site.url | absolute_url }}">
+                        <a href="{{ '/' | prepend: site.baseurl }}">
                         	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
 			            </a>
                     </h3>
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/about">
-                         About
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/posts">
-                         Tutorials
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/projects">
-                         Projects
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url | absolute_url }}/recipes">
+                    <a class="btn zoombtn" href="{{ '/about' | prepend: site.baseurl }}">
+                        About
+                    </a>
+                    <a class="btn zoombtn" href="{{ '/posts' | prepend: site.baseurl }}">
+                        Tutorials
+                    </a>
+                    <a class="btn zoombtn" href="{{ '/projects' | prepend: site.baseurl }}">
+                        Projects
+                    </a>
+                    <a class="btn zoombtn" href="{{ '/recipes' | prepend: site.baseurl }}">
                         Recipes
-                        </a>
+                    </a>
+                    <a class="btn zoombtn" href="{{ '/spiritslist' | prepend: site.baseurl }}">
+                        Spirits List
+                    </a>
                  </h3>
 
                  <h3 class="title">
@@ -52,7 +55,7 @@ layout: compress
                      </h4>
                     
                     {% for post in site.posts limit:3 %}
-                        <a class="btn zoombtn" href="{{ site.url | absolute_url }}{{ post.url }}">
+                        <a class="btn zoombtn" href="{{ post.url }}">
                             {{ post.title }}
                         </a>
                     {% endfor %}
