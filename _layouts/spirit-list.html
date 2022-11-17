@@ -23,7 +23,16 @@ layout: compress
                 </div>
                 {{ content }}
                 <div class="post-list">
-                    {% assign name = site.SpiritsList | sort: 'date' | reverse %}
+                    {% assign groups = site.SpiritsList | group_by: "category" | sort: "name" %}
+                    {% for group in groups %}
+                        <h2>{{ group.name }}</h2>
+                        <ul>
+                            {% for item in group.items %}
+                                <li>{{ item.title }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endfor %}
+                    <!-- {% assign name = site.SpiritsList | sort: 'date' | reverse %}
                     {% for post in name %} 
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
@@ -32,7 +41,7 @@ layout: compress
                             <a href="{{ site.url | absolute_url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                         </li>
                     </ul>
-                    {% endfor %}
+                    {% endfor %} -->
                 </div>
             </div>
         </div>
