@@ -1,8 +1,8 @@
 ---
 layout: recipe
-recipe: true
 title: Yellow Spot
-type: Irish Single Pot Still Whiskey
+category: Irish
+subcategory: 
 aged: 12
 abv: 46
 distillery: Spot Whiskey

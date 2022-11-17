@@ -1,8 +1,8 @@
 ---
 layout: recipe
-recipe: true
 title:  Cowboy Bourbon (2022)
-type: Bourbon
+category: North American
+subcategory: Bourbon
 aged: NAS
 abv: 67.4
 distillery: Garrison Brothers
