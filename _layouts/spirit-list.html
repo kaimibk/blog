@@ -17,18 +17,21 @@ layout: compress
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
+                    <p>Current Bottle Count: {{ site.SpiritsList | size }}</p>
                     <a class="btn zoombtn" href="{{site.url}}">
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
+
                 {{ content }}
                 <div class="post-list">
                     {% assign groups = site.SpiritsList | group_by: "category" | sort: "name" %}
                     {% for group in groups %}
                         <h2>{{ group.name }}</h2>
                         <ul>
-                            {% for item in group.items %}
-                                <li>{{ item.title }}</li>
+                            {% assign items = group.items | sort: "title" %}
+                            {% for item in items %}
+                                <li>{{ item.title }} (ABV: {{ item.abv }}% // {{ item.distillery-location }})</li>
                             {% endfor %}
                         </ul>
                     {% endfor %}

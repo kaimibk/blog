@@ -1,11 +1,11 @@
 ---
 layout: recipe
-title: Elijah Craig Barrel Proof
+title: Breckenridge Madeira Cask Finish
 category: North American - Bourbon
 aged: NAS
-abv: 59.1
-distillery: Heaven Hill
-distillery-location: Kentucky, USA
+abv: 46
+distillery: Breckenridge
+distillery-location: Colorado, USA
 nose:
 palate:
 finish:

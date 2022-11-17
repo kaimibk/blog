@@ -1,11 +1,11 @@
 ---
 layout: recipe
-title: Elijah Craig Barrel Proof
+title: Laws Four Grain Straight Bourbon
 category: North American - Bourbon
 aged: NAS
-abv: 59.1
-distillery: Heaven Hill
-distillery-location: Kentucky, USA
+abv: 47.5
+distillery: Laws Whiskey House
+distillery-location: Colorado, USA
 nose:
 palate:
 finish:

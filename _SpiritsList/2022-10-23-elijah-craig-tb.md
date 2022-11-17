@@ -5,7 +5,7 @@ category: North American - Bourbon
 aged: NAS
 abv: 47
 distillery: Heaven Hill
-distillery-location: Kentucy, USA
+distillery-location: Kentucky, USA
 nose:
 palate:
 finish:
