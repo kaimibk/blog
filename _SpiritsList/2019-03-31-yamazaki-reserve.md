@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: The Yamazaki Distiller's Reserve
-category: Asian
-subcategory: Japanese
+category: Asian - Japanese
 aged: NAS
 abv: 43
 distillery: Suntory

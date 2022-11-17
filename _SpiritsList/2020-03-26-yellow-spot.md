@@ -2,7 +2,6 @@
 layout: recipe
 title: Yellow Spot
 category: Irish
-subcategory: 
 aged: 12
 abv: 46
 distillery: Spot Whiskey

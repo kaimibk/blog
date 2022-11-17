@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: Maker's Mark Private Select
-category: North American
-subcategory: Bourbon
+category: North American - Bourbon
 aged: NAS
 abv: 53.85
 distillery: Maker's Mark

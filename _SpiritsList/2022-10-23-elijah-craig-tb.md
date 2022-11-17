@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: Elijah Craig Toasted Barrel
-category: North American
-subcategory: Bourbon
+category: North American - Bourbon
 aged: NAS
 abv: 47
 distillery: Heaven Hill

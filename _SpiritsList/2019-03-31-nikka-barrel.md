@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: Nikka Whisky from the Barrel
-category: Asian
-subcategory: Japanese
+category: Asian - Japanese
 aged: NAS
 abv: 51.4
 distillery: Nikka

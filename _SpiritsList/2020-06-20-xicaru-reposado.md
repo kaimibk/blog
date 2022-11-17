@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: Xicaru Mezcal Reposado
-category: Tequila
-subcategory: Mezcal
+category: Tequila - Mezcal
 aged: NAS
 abv: 40
 distillery: Xicaru

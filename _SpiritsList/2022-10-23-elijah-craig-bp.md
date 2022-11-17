@@ -1,8 +1,7 @@
 ---
 layout: recipe
 title: Elijah Craig Barrel Proof
-category: North American
-subcategory: Bourbon
+category: North American - Bourbon
 aged: NAS
 abv: 59.1
 distillery: Heaven Hill
