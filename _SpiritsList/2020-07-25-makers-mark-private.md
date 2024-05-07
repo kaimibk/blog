@@ -9,6 +9,7 @@ distillery-location: Kentucy, USA
 nose:
 palate:
 finish:
+out: true
 tag:
     - bourbon
     - whiskey

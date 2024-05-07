@@ -9,6 +9,7 @@ distillery-location: Keith, UK
 nose:
 palate:
 finish:
+out: true
 tag:
     - asian
     - japanese

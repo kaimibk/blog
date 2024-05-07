@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Smith & Cross
-category: Rum - Jamaican
+category: Rum
 aged: NAS
 abv: 57
 distillery: Hayman Distillers

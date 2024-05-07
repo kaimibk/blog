@@ -1,0 +1,16 @@
+---
+layout: recipe
+title: Redbreast 12 Cask Strength
+category: Irish
+aged: 12
+abv: 58.1
+distillery: Redbreast
+distillery-location: County Cork, IE
+nose: Nutty, rich and oily. There are notes of dried peels, ginger, linseed and cut fruits including a touch of melon.
+palate: Spicy with great body. Nuts and citrus (peel and juice) with hints of marzipan, dried fruits and a hint of Sherry.
+finish: Long and creamy with custard and spice.
+tag:
+    - irish
+    - whiskey
+    - single-pot-still
+---

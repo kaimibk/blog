@@ -1,15 +1,14 @@
 ---
 layout: recipe
-title: Straight Edge
+title: Wild Turkey Rare Breed (Barrel Proof)
 category: North American - Bourbon
 aged: NAS
-abv: 42
-distillery: The Splinter Group
-distillery-location: California, USA
+abv: 58.4
+distillery: Wild Turkey
+distillery-location: Kentucky, USA
 nose:
 palate:
 finish:
-out: true
 tag:
     - bourbon
     - whiskey

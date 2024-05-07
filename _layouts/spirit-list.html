@@ -31,7 +31,15 @@ layout: compress
                         <ul>
                             {% assign items = group.items | sort: "title" %}
                             {% for item in items %}
-                                <li>{{ item.title }} (ABV: {{ item.abv }}% // {{ item.distillery-location }})</li>
+                                <li>
+                                    {% if item.out %}
+                                        <s>
+                                    {% endif %}
+                                    {{ item.title }} (ABV: {{ item.abv }}% // {{ item.distillery-location }})
+                                    {% if item.out %}
+                                        </s>
+                                    {% endif %}
+                                </li>
                             {% endfor %}
                         </ul>
                     {% endfor %}

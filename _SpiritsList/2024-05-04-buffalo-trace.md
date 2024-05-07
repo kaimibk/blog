@@ -1,15 +1,14 @@
 ---
 layout: recipe
-title: Straight Edge
+title: Buffalo Trace
 category: North American - Bourbon
 aged: NAS
-abv: 42
-distillery: The Splinter Group
-distillery-location: California, USA
+abv: 45
+distillery: Buffalo Trace
+distillery-location: Kentucky, USA
 nose:
 palate:
 finish:
-out: true
 tag:
     - bourbon
     - whiskey

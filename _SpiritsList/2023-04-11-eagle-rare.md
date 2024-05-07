@@ -1,15 +1,14 @@
 ---
 layout: recipe
-title: Bulleit Bourbon
+title: Eagle Rare
 category: North American - Bourbon
-aged: NAS
+aged: 10
 abv: 45
-distillery: Bulleit
+distillery: Buffalo Trace
 distillery-location: Kentucky, USA
 nose:
 palate:
 finish:
-out: true
 tag:
     - bourbon
     - whiskey
