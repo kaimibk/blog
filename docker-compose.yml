@@ -1,7 +1,7 @@
 version: "3"
 services:
     jekyll-serve:
-        image: bretfisher/jekyll-serve
+        image: bretfisher/jekyll-serve:stable-20240415-2119a31
         container_name: jekyll-serve
         volumes:
             - .:/site
