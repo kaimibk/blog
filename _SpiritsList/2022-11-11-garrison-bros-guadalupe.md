@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Guadalupe
+title: Garrison Brothers Guadalupe
 category: North American - Bourbon
 aged: NAS
 abv: 53.5
