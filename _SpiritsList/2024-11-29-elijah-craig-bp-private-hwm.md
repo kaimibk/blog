@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title: Wild Turkey Rare Breed (Barrel Proof)
+title: Elijah Craig Private Barrel Barrel Proof - Hawaii Whiskey Mafia /#3
 category: North American - Bourbon
-aged: NAS
-abv: 58.4
-distillery: The Wild Turkey
+aged: 9
+abv: 67.5
+distillery: Heaven Hill
 distillery-location: Kentucky, USA
 nose:
 palate:

@@ -1,11 +1,11 @@
 ---
 layout: recipe
-title: Maker's Mark Private Select
+title: Maker's Mark Private Select (Livestock Tavern)
 category: North American - Bourbon
 aged: NAS
 abv: 53.85
 distillery: Maker's Mark
-distillery-location: Kentucy, USA
+distillery-location: Kentucky, USA
 nose:
 palate:
 finish:

@@ -1,9 +1,9 @@
 ---
 layout: recipe
-title: Wild Turkey Rare Breed (Barrel Proof)
+title: Russel's Reserve Private Barrel Selection - Bar Leather Apron
 category: North American - Bourbon
 aged: NAS
-abv: 58.4
+abv: 55
 distillery: The Wild Turkey
 distillery-location: Kentucky, USA
 nose:
