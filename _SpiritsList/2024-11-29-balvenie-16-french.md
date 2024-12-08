@@ -9,7 +9,6 @@ distillery-location: Dufftown, UK
 nose: 
 palate: 
 finish: 
-out: true
 tag:
     - speyside
     - highland
