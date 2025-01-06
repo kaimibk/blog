@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Rendezvous Rye
+title: High West Rendezvous Rye
 category: North American - Rye
 aged: NAS
 abv: 46

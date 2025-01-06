@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Tequila Ocho Plata (Blanco)
+title: Tequila Ocho Plata - Blanco
 category: Tequila
 aged: NAS
 abv: 40

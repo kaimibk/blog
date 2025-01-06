@@ -4,7 +4,7 @@ title: Port Charlotte 10
 category: Scotch - Islay
 aged: 10
 abv: 50
-distillery: Bruichladdich
+distillery: Bruichladdich Distillery
 distillery-location: Islay, UK
 nose: Salted caramel brownie, flamed orange peel, a hearty whack of seaweed.
 palate: Oak-y smoke and salty sea air, paired with sweeter notes of Custard Cream biscuits and white grape.

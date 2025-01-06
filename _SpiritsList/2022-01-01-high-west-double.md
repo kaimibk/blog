@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Double Rye
+title: High West Double Rye
 category: North American - Rye
 aged: NAS
 abv: 46

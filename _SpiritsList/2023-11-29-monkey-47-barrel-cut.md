@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Monkey 47 (Barrel Cut)
+title: Monkey 47 - Barrel Cut
 category: Gin
 aged: NAS
 abv: 47

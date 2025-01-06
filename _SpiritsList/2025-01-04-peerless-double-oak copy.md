@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title: Wild Turkey Rare Breed - Barrel Proof
+title: Peerless Double Oak
 category: North American - Bourbon
 aged: NAS
-abv: 58.4
-distillery: The Wild Turkey
+abv: 54.75
+distillery: Kentucky Peerless Distilling Co.
 distillery-location: Kentucky, USA
 nose:
 palate:

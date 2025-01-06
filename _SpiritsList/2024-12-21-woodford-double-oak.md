@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title: Wild Turkey Rare Breed - Barrel Proof
+title: Woodford Reserve Double Oaked
 category: North American - Bourbon
 aged: NAS
-abv: 58.4
-distillery: The Wild Turkey
+abv: 45.2
+distillery: Woodford Reserve Distillery
 distillery-location: Kentucky, USA
 nose:
 palate:
