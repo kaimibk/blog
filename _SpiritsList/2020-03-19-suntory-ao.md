@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Suntory Ao World Whisky
-category: Asian - Japanese
+category: Whisk[e]y / Asian / Japanese
 aged: NAS
 abv: 43
 distillery: Suntory

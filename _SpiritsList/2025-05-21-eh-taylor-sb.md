@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: E.H. Taylor Small Batch
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 50
 distillery: Buffalo Trace

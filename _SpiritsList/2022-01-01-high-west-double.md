@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: High West Double Rye
-category: North American - Rye
+category: Whisk[e]y / North American / Rye
 aged: NAS
 abv: 46
 distillery: High West

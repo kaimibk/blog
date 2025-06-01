@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Russel's Reserve Private Barrel Selection - Bar Leather Apron
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 55
 distillery: The Wild Turkey

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Chivas Regal Mizunara
-category: Scotch - Other
+category: Whisk[e]y / Scotch / Other
 aged: 12
 abv: 40
 distillery: Chivas Brothers

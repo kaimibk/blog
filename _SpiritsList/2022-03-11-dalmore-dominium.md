@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Dalmore Dominium
-category: Scotch - Highlands
+category: Whisk[e]y / Scotch / Highlands
 aged: NAS
 abv: 40
 distillery: Dalmore

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Bruichladdich 18
-category: Scotch - Islay
+category: Whisk[e]y / Scotch / Islay
 aged: 18
 abv: 50
 distillery: Bruichladdich Distillery

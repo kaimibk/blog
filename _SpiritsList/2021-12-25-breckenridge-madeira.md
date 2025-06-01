@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Breckenridge Madeira Cask Finish
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 46
 distillery: Breckenridge

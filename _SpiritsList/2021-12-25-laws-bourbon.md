@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Laws Four Grain Straight Bourbon
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 47.5
 distillery: Laws Whiskey House

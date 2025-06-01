@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Maker's Mark Private Select (Livestock Tavern)
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 53.85
 distillery: Maker's Mark

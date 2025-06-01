@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Hibiki Japanese Harmony
-category: Asian - Japanese
+category: Whisk[e]y / Asian / Japanese
 aged: NAS
 abv: 43
 distillery: Suntory

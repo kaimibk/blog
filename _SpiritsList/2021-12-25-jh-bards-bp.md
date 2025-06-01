@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: J.H. Bards Barrel Proof Single Malt Whiskey
-category: North American - Other
+category: Whisk[e]y / North American / Other
 aged: NAS
 abv: 58
 distillery: J.H. Bards

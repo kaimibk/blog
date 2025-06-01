@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Buffalo Trace
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 45
 distillery: Buffalo Trace

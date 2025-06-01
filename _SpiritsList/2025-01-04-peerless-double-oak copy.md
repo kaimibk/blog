@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Peerless Double Oak
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 54.75
 distillery: Kentucky Peerless Distilling Co.

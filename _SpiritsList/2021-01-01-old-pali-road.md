@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Old Pali Road
-category: North American - Other
+category: Whisk[e]y / North American / Other
 aged: NAS
 abv: 43
 distillery: Ko’olau Distillery

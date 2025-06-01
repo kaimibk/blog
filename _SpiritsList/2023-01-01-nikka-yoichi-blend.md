@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Yoichi Limited Blend
-category: Asian - Japanese
+category: Whisk[e]y / Asian / Japanese
 aged: NAS
 abv: 40
 distillery: Nikka

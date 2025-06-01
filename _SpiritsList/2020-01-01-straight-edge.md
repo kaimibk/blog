@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Straight Edge
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 42
 distillery: The Splinter Group

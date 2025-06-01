@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Bunnahabhain 12 Year Old
-category: Scotch - Islay
+category: Whisk[e]y / Scotch / Islay
 aged: 12
 abv: 46.3
 distillery: Bunnahabhain

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Jack Daniel's Single Barrel Barrel Proof Rye
-category: North American - Rye
+category: Whisk[e]y / North American / Rye
 aged: NAS
 abv: 66.9
 distillery: Jack Daniel Distillery

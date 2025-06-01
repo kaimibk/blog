@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Ardbeg 10 Year Old
-category: Scotch - Islay
+category: Whisk[e]y / Scotch / Islay
 aged: 10
 abv: 46
 distillery: Ardbeg

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Port Charlotte 10
-category: Scotch - Islay
+category: Whisk[e]y / Scotch / Islay
 aged: 10
 abv: 50
 distillery: Bruichladdich Distillery

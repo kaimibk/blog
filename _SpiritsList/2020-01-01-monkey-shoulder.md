@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Monkey Shoulder
-category: Scotch - Speyside
+category: Whisk[e]y / Scotch / Speyside
 aged: NAS
 abv: 40
 distillery: Mixed

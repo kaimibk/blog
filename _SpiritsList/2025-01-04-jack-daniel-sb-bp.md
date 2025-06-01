@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Jack Daniel's Single Barrel Barrel Proof
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: NAS
 abv: 65.35
 distillery: Jack Daniel Distillery

@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Balvenie 16 French Oak
-category: Scotch - Speyside
+category: Whisk[e]y / Scotch / Speyside
 aged: 16
 abv: 47.6
 distillery: Balvenie

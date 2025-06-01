@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Ben Holladay Soft Red Wheat - Bottled in Bond
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: 6
 abv: 50
 distillery: Holladay Distillery

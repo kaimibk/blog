@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Eagle Rare
-category: North American - Bourbon
+category: Whisk[e]y / North American / Bourbon
 aged: 10
 abv: 45
 distillery: Buffalo Trace

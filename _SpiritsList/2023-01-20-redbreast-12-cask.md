@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Redbreast 12 Cask Strength
-category: Irish
+category: Whisk[e]y / Irish
 aged: 12
 abv: 58.1
 distillery: Redbreast
