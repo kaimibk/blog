@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: El Tesoro Anejo
+title: El Tesoro Añejo
 category: Tequila
 aged: NAS
 abv: 40

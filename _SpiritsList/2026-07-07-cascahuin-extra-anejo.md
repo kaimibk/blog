@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title: Fortaleza - Añejo
+title: Cascahuin - Extra Añejo
 category: Tequila
 aged: NAS
-abv: 40
-distillery: Tequila Fortaleza
+abv: 43
+distillery: Tequila Cascahuin
 distillery-location: Jalisco, MX
 nose: 
 palate: 

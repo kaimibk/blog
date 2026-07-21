@@ -1,10 +1,10 @@
 ---
 layout: recipe
-title: Fortaleza - Añejo
+title: Don Fulano - Añejo
 category: Tequila
 aged: NAS
 abv: 40
-distillery: Tequila Fortaleza
+distillery: La Tequileña distillery
 distillery-location: Jalisco, MX
 nose: 
 palate: 
@@ -13,3 +13,6 @@ tag:
     - tequila
     - anejo
 ---
+
+Lote 26DFA25
+Botella 97

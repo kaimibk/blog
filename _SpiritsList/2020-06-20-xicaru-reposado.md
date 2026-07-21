@@ -12,5 +12,5 @@ finish:
 out: true
 tag:
     - tequila
-    - anejo
+    - reposado
 ---
